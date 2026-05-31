@@ -25,7 +25,53 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
 
+# Environments
+nnunet_env/
+venv/
+.env/
+.venv/
+
+# Raw / processed medical data
+original_PENGWIN_data/
+aligned_and_converted_data/
+All_data/
+D1to9_extracted/
+data/
+*.nii
+*.nii.gz
+*.mha
+*.nrrd
+*.npz
+
+# nnU-Net generated data/results
+nnUNet/
+predictions/
+evaluation/
+logs/
+
+# Generated split/analysis outputs
+fracture_analysis.csv
+train_val_test.json
+
+# Archives / large downloads
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
