@@ -49,6 +49,11 @@ def parse_args():
     parser.add_argument("--rh_pred_dir", default="predictions/Dataset010_anatomy_RH")
     parser.add_argument("--s_pred_dir", default="predictions/Dataset011_anatomy_S")
     parser.add_argument("--merged_pred_dir", default="predictions/merged_binary_anatomy")
+    parser.add_argument(
+        "--show_probabilities",
+        action="store_true",
+        help="Color the normal 3D prediction surfaces by foreground probability.",
+    )
     return parser.parse_args()
 
 
@@ -74,6 +79,38 @@ def read_label(path: Path):
     return arr, spacing_zyx
 
 
+def load_probability_map(folder: Path, case_id: str) -> np.ndarray | None:
+    """Load probability map from .npz file if it exists."""
+    npz_path = folder / f"{case_id}.npz"
+    if not npz_path.is_file():
+        return None
+
+    try:
+        with np.load(npz_path) as data:
+            key = "probabilities" if "probabilities" in data else "softmax"
+            if key not in data:
+                print(
+                    f"Warning: No probability array found in {npz_path}; "
+                    f"available keys: {data.files}"
+                )
+                return None
+
+            probs = data[key]
+            if probs.ndim != 4:
+                raise ValueError(
+                    f"Expected (C, Z, Y, X), got probability shape {probs.shape}"
+                )
+            if probs.shape[0] < 2:
+                raise ValueError(
+                    f"Expected background and foreground channels, got {probs.shape[0]}"
+                )
+
+            return probs[1].copy()
+    except Exception as e:
+        print(f"Warning: Could not load probability from {npz_path}: {e}")
+        return None
+
+
 def mesh_from_mask(mask: np.ndarray, spacing_zyx, step_size: int):
     if not np.any(mask):
         return None
@@ -94,7 +131,58 @@ def mesh_from_mask(mask: np.ndarray, spacing_zyx, step_size: int):
     return verts, faces
 
 
-def add_mesh_trace(fig, row, col, arr, spacing_zyx, label_value, name_prefix, step_size, opacity=0.72):
+def probabilities_for_surface_vertices(
+    vertices: np.ndarray,
+    mask: np.ndarray,
+    probabilities: np.ndarray,
+    spacing_zyx,
+) -> np.ndarray:
+    voxel_vertices = vertices / np.asarray(spacing_zyx, dtype=np.float32)
+    lower = np.floor(voxel_vertices).astype(np.int32)
+    upper = np.ceil(voxel_vertices).astype(np.int32)
+
+    best_distance = np.full(len(vertices), np.inf, dtype=np.float32)
+    values = np.full(len(vertices), np.nan, dtype=np.float32)
+
+    for z_choice in (0, 1):
+        for y_choice in (0, 1):
+            for x_choice in (0, 1):
+                indices = np.column_stack(
+                    (
+                        upper[:, 0] if z_choice else lower[:, 0],
+                        upper[:, 1] if y_choice else lower[:, 1],
+                        upper[:, 2] if x_choice else lower[:, 2],
+                    )
+                )
+                indices = np.clip(indices, 0, np.asarray(mask.shape) - 1)
+                is_foreground = mask[
+                    indices[:, 0], indices[:, 1], indices[:, 2]
+                ]
+                distance = np.sum((voxel_vertices - indices) ** 2, axis=1)
+                use = is_foreground & (distance < best_distance)
+                best_distance[use] = distance[use]
+                values[use] = probabilities[
+                    indices[use, 0], indices[use, 1], indices[use, 2]
+                ]
+
+    if np.isnan(values).any():
+        raise RuntimeError("Could not map every mesh vertex to a foreground voxel.")
+    return values
+
+
+def add_mesh_trace(
+    fig,
+    row,
+    col,
+    arr,
+    spacing_zyx,
+    label_value,
+    name_prefix,
+    step_size,
+    opacity=0.72,
+    probability_map=None,
+    show_probability_scale=False,
+):
     import plotly.graph_objects as go
 
     info = LABELS[label_value]
@@ -103,23 +191,44 @@ def add_mesh_trace(fig, row, col, arr, spacing_zyx, label_value, name_prefix, st
         return
 
     verts, faces = mesh
-    fig.add_trace(
-        go.Mesh3d(
-            x=verts[:, 2],
-            y=verts[:, 1],
-            z=verts[:, 0],
-            i=faces[:, 0],
-            j=faces[:, 1],
-            k=faces[:, 2],
-            name=f"{name_prefix} {info['name']}",
-            color=info["color"],
-            opacity=opacity,
-            flatshading=True,
-            showscale=False,
-        ),
-        row=row,
-        col=col,
+
+    trace = go.Mesh3d(
+        x=verts[:, 2],
+        y=verts[:, 1],
+        z=verts[:, 0],
+        i=faces[:, 0],
+        j=faces[:, 1],
+        k=faces[:, 2],
+        name=f"{name_prefix} {info['name']}",
+        color=info["color"],
+        opacity=opacity,
+        flatshading=True,
+        showscale=False,
     )
+
+    if probability_map is not None:
+        values = probabilities_for_surface_vertices(
+            verts,
+            arr == label_value,
+            probability_map,
+            spacing_zyx,
+        )
+        trace.update(
+            color=None,
+            intensity=values,
+            intensitymode="vertex",
+            colorscale="RdYlGn",
+            cmin=0.5,
+            cmax=1.0,
+            showscale=show_probability_scale,
+            colorbar=dict(title="P(class)", x=1.01)
+            if show_probability_scale
+            else None,
+            customdata=values,
+            hovertemplate="P(class)=%{customdata:.4f}<extra></extra>",
+        )
+
+    fig.add_trace(trace, row=row, col=col)
 
 
 def binary_to_label(arr: np.ndarray, label_value: int) -> np.ndarray:
@@ -128,7 +237,19 @@ def binary_to_label(arr: np.ndarray, label_value: int) -> np.ndarray:
     return out
 
 
-def make_figure(case_id, gt, lh, rh, sacrum, merged, spacing_zyx, step_size):
+def make_figure(
+    case_id,
+    gt,
+    lh,
+    rh,
+    sacrum,
+    merged,
+    spacing_zyx,
+    step_size,
+    lh_prob=None,
+    rh_prob=None,
+    s_prob=None,
+):
     from plotly.subplots import make_subplots
 
     fig = make_subplots(
@@ -148,12 +269,31 @@ def make_figure(case_id, gt, lh, rh, sacrum, merged, spacing_zyx, step_size):
     for label_value in LABELS:
         add_mesh_trace(fig, 1, 1, gt, spacing_zyx, label_value, "GT", step_size)
 
-    add_mesh_trace(fig, 1, 2, lh, spacing_zyx, 1, "Pred", step_size)
-    add_mesh_trace(fig, 1, 3, rh, spacing_zyx, 2, "Pred", step_size)
-    add_mesh_trace(fig, 1, 4, sacrum, spacing_zyx, 3, "Pred", step_size)
+    prediction_step = 1 if lh_prob is not None else step_size
+    add_mesh_trace(
+        fig, 1, 2, lh, spacing_zyx, 1, "Pred", prediction_step,
+        probability_map=lh_prob,
+    )
+    add_mesh_trace(
+        fig, 1, 3, rh, spacing_zyx, 2, "Pred", prediction_step,
+        probability_map=rh_prob,
+    )
+    add_mesh_trace(
+        fig, 1, 4, sacrum, spacing_zyx, 3, "Pred", prediction_step,
+        probability_map=s_prob,
+        show_probability_scale=s_prob is not None,
+    )
 
     for label_value in LABELS:
-        add_mesh_trace(fig, 1, 5, merged, spacing_zyx, label_value, "Merged", step_size)
+        class_probability = {
+            1: lh_prob,
+            2: rh_prob,
+            3: s_prob,
+        }[label_value]
+        add_mesh_trace(
+            fig, 1, 5, merged, spacing_zyx, label_value, "Merged",
+            prediction_step, probability_map=class_probability,
+        )
 
     fig.update_layout(
         title=f"3D Anatomy Check: {case_id}",
@@ -195,17 +335,77 @@ def main():
     s_raw, _ = read_label(s_path)
     merged, _ = read_label(merged_path)
 
+    image_shapes = {
+        "ground truth": gt.shape,
+        "LH prediction": lh_raw.shape,
+        "RH prediction": rh_raw.shape,
+        "S prediction": s_raw.shape,
+        "merged prediction": merged.shape,
+    }
+    if len(set(image_shapes.values())) != 1:
+        raise ValueError(f"Image shapes do not match: {image_shapes}")
+
+    lh_prob = None
+    rh_prob = None
+    s_prob = None
+    if args.show_probabilities:
+        print("Loading probability maps...")
+        lh_prob = load_probability_map(resolve(args.lh_pred_dir), case_id)
+        rh_prob = load_probability_map(resolve(args.rh_pred_dir), case_id)
+        s_prob = load_probability_map(resolve(args.s_pred_dir), case_id)
+
+        if lh_prob is not None:
+            print(f"  LH probabilities: shape {lh_prob.shape}")
+        if rh_prob is not None:
+            print(f"  RH probabilities: shape {rh_prob.shape}")
+        if s_prob is not None:
+            print(f"  S probabilities: shape {s_prob.shape}")
+
+        probability_maps = (lh_prob, rh_prob, s_prob)
+        if not all(prob is not None for prob in probability_maps):
+            raise FileNotFoundError(
+                "Probability mode requires matching .npz files for LH, RH, and S."
+            )
+
+        expected_shape = gt.shape
+        if any(prob.shape != expected_shape for prob in probability_maps):
+            shapes = [prob.shape for prob in probability_maps]
+            raise ValueError(
+                f"Probability shapes {shapes} do not match image shape "
+                f"{expected_shape}"
+            )
+
     lh = binary_to_label(lh_raw, 1)
     rh = binary_to_label(rh_raw, 2)
     sacrum = binary_to_label(s_raw, 3)
+    fig = make_figure(
+        case_id,
+        gt,
+        lh,
+        rh,
+        sacrum,
+        merged,
+        spacing_zyx,
+        args.step_size,
+        lh_prob=lh_prob,
+        rh_prob=rh_prob,
+        s_prob=s_prob,
+    )
+    default_name = (
+        f"{case_id}_anatomy_3d_probabilities.html"
+        if args.show_probabilities
+        else f"{case_id}_anatomy_3d.html"
+    )
 
-    fig = make_figure(case_id, gt, lh, rh, sacrum, merged, spacing_zyx, args.step_size)
-
-    out_path = resolve(args.out) if args.out else PROJECT_ROOT / "visualization_outputs" / f"{case_id}_anatomy_3d.html"
+    out_path = (
+        resolve(args.out)
+        if args.out
+        else PROJECT_ROOT / "visualization_outputs" / default_name
+    )
     out_path.parent.mkdir(parents=True, exist_ok=True)
     fig.write_html(str(out_path), include_plotlyjs="cdn")
 
-    print(f"Saved interactive 3D view: {out_path}")
+    print(f"Saved interactive visualization: {out_path}")
 
 
 if __name__ == "__main__":
