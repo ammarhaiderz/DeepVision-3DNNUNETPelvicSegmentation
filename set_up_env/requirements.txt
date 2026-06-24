@@ -31,6 +31,7 @@ seaborn==0.13.2
 simpleitk==2.5.3
 tifffile
 timm==1.0.22
+tensorboard>=2.16,<3
 tqdm==4.67.3
 typer==0.24.1
 yacs==0.1.8

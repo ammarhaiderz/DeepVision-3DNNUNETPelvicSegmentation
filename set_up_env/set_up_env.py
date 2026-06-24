@@ -38,8 +38,15 @@ def main():
 
     run([str(python_bin), "-m", "pip", "install", "--upgrade", "pip", "setuptools", "wheel"])
 
-    print("Installing torch + torchvision...")
-    run([str(pip_bin), "install", "torch", "torchvision"])
+    print("Installing PyTorch with the CUDA 12.1 runtime...")
+    run([
+        str(pip_bin),
+        "install",
+        "--index-url",
+        "https://download.pytorch.org/whl/cu121",
+        "torch==2.5.1",
+        "torchvision==0.20.1",
+    ])
 
     print("Installing requirements...")
     run([str(pip_bin), "install", "-r", str(requirements)])
