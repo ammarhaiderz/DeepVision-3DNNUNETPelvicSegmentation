@@ -1,0 +1,586 @@
+{
+    "foreground_mean": {
+        "Dice": 0.9823006619735678,
+        "FN": 7864.511111111111,
+        "FP": 6228.022222222222,
+        "IoU": 0.9654442376072169,
+        "TN": 60499996.35555556,
+        "TP": 409069.97777777776,
+        "n_pred": 415298.0,
+        "n_ref": 416934.4888888889
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.9781834239637806,
+            "FN": 5699.333333333333,
+            "FP": 8231.933333333332,
+            "IoU": 0.957693804096989,
+            "TN": 60604679.266666666,
+            "TP": 304548.3333333333,
+            "n_pred": 312780.26666666666,
+            "n_ref": 310247.6666666667
+        },
+        "2": {
+            "Dice": 0.9870505852833027,
+            "FN": 6868.666666666667,
+            "FP": 4798.666666666667,
+            "IoU": 0.974477993132337,
+            "TN": 60447627.4,
+            "TP": 463864.13333333336,
+            "n_pred": 468662.8,
+            "n_ref": 470732.8
+        },
+        "3": {
+            "Dice": 0.98166797667362,
+            "FN": 11025.533333333333,
+            "FP": 5653.466666666666,
+            "IoU": 0.9641609155923248,
+            "TN": 60447682.4,
+            "TP": 458797.4666666667,
+            "n_pred": 464450.93333333335,
+            "n_ref": 469823.0
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.989154867992388,
+                    "FN": 4082,
+                    "FP": 1201,
+                    "IoU": 0.9785424459905689,
+                    "TN": 82853441,
+                    "TP": 240924,
+                    "n_pred": 242125,
+                    "n_ref": 245006
+                },
+                "2": {
+                    "Dice": 0.9906952404991597,
+                    "FN": 6630,
+                    "FP": 927,
+                    "IoU": 0.981562041765379,
+                    "TN": 82689787,
+                    "TP": 402304,
+                    "n_pred": 403231,
+                    "n_ref": 408934
+                },
+                "3": {
+                    "Dice": 0.9722165615387305,
+                    "FN": 9087,
+                    "FP": 13954,
+                    "IoU": 0.9459352283339669,
+                    "TN": 82673474,
+                    "TP": 403133,
+                    "n_pred": 417087,
+                    "n_ref": 412220
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_007.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9853755858054528,
+                    "FN": 4915,
+                    "FP": 5230,
+                    "IoU": 0.971172753208079,
+                    "TN": 87466316,
+                    "TP": 341779,
+                    "n_pred": 347009,
+                    "n_ref": 346694
+                },
+                "2": {
+                    "Dice": 0.9825944606220708,
+                    "FN": 15588,
+                    "FP": 4890,
+                    "IoU": 0.9657844611528822,
+                    "TN": 87219740,
+                    "TP": 578022,
+                    "n_pred": 582912,
+                    "n_ref": 593610
+                },
+                "3": {
+                    "Dice": 0.9918321940115327,
+                    "FN": 7119,
+                    "FP": 2411,
+                    "IoU": 0.9837967331629695,
+                    "TN": 87230087,
+                    "TP": 578623,
+                    "n_pred": 581034,
+                    "n_ref": 585742
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_008.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.986997593409236,
+                    "FN": 4160,
+                    "FP": 2707,
+                    "IoU": 0.9743289719626168,
+                    "TN": 69200660,
+                    "TP": 260633,
+                    "n_pred": 263340,
+                    "n_ref": 264793
+                },
+                "2": {
+                    "Dice": 0.9797078115599138,
+                    "FN": 12413,
+                    "FP": 2056,
+                    "IoU": 0.9602227897655264,
+                    "TN": 69104409,
+                    "TP": 349282,
+                    "n_pred": 351338,
+                    "n_ref": 361695
+                },
+                "3": {
+                    "Dice": 0.9738324514595758,
+                    "FN": 8630,
+                    "FP": 10044,
+                    "IoU": 0.9489994619735466,
+                    "TN": 69102007,
+                    "TP": 347479,
+                    "n_pred": 357523,
+                    "n_ref": 356109
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_012.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.928692977424143,
+                    "FN": 2691,
+                    "FP": 49144,
+                    "IoU": 0.8668784558054964,
+                    "TN": 61214459,
+                    "TP": 337546,
+                    "n_pred": 386690,
+                    "n_ref": 340237
+                },
+                "2": {
+                    "Dice": 0.9898285620539743,
+                    "FN": 5650,
+                    "FP": 6254,
+                    "IoU": 0.9798619569630532,
+                    "TN": 61012720,
+                    "TP": 579216,
+                    "n_pred": 585470,
+                    "n_ref": 584866
+                },
+                "3": {
+                    "Dice": 0.9587312843267694,
+                    "FN": 37169,
+                    "FP": 10785,
+                    "IoU": 0.9207337836006175,
+                    "TN": 60998866,
+                    "TP": 557020,
+                    "n_pred": 567805,
+                    "n_ref": 594189
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_016.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9754568919840754,
+                    "FN": 6346,
+                    "FP": 8801,
+                    "IoU": 0.9520896527946912,
+                    "TN": 32286327,
+                    "TP": 301006,
+                    "n_pred": 309807,
+                    "n_ref": 307352
+                },
+                "2": {
+                    "Dice": 0.9884363522683307,
+                    "FN": 4103,
+                    "FP": 6328,
+                    "IoU": 0.9771370832520532,
+                    "TN": 32146239,
+                    "TP": 445810,
+                    "n_pred": 452138,
+                    "n_ref": 449913
+                },
+                "3": {
+                    "Dice": 0.9848190616757669,
+                    "FN": 6494,
+                    "FP": 7124,
+                    "IoU": 0.9700921525392461,
+                    "TN": 32147148,
+                    "TP": 441714,
+                    "n_pred": 448838,
+                    "n_ref": 448208
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_028.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_028.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9768213321939825,
+                    "FN": 10834,
+                    "FP": 12168,
+                    "IoU": 0.9546928243613229,
+                    "TN": 38178295,
+                    "TP": 484688,
+                    "n_pred": 496856,
+                    "n_ref": 495522
+                },
+                "2": {
+                    "Dice": 0.9914181591865808,
+                    "FN": 1384,
+                    "FP": 10640,
+                    "IoU": 0.9829823610417218,
+                    "TN": 37979424,
+                    "TP": 694537,
+                    "n_pred": 705177,
+                    "n_ref": 695921
+                },
+                "3": {
+                    "Dice": 0.9916387063026714,
+                    "FN": 5317,
+                    "FP": 6064,
+                    "IoU": 0.9834160756673423,
+                    "TN": 37999718,
+                    "TP": 674886,
+                    "n_pred": 680950,
+                    "n_ref": 680203
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_033.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9858180965775902,
+                    "FN": 5164,
+                    "FP": 4758,
+                    "IoU": 0.972032820986941,
+                    "TN": 50887211,
+                    "TP": 344851,
+                    "n_pred": 349609,
+                    "n_ref": 350015
+                },
+                "2": {
+                    "Dice": 0.9881553755728344,
+                    "FN": 5928,
+                    "FP": 6804,
+                    "IoU": 0.976588056819749,
+                    "TN": 50698159,
+                    "TP": 531093,
+                    "n_pred": 537897,
+                    "n_ref": 537021
+                },
+                "3": {
+                    "Dice": 0.9926029590118515,
+                    "FN": 5449,
+                    "FP": 2120,
+                    "IoU": 0.9853145469220501,
+                    "TN": 50726576,
+                    "TP": 507839,
+                    "n_pred": 509959,
+                    "n_ref": 513288
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_036.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_036.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9680296365702784,
+                    "FN": 8393,
+                    "FP": 2662,
+                    "IoU": 0.9380401519991929,
+                    "TN": 19260074,
+                    "TP": 167367,
+                    "n_pred": 170029,
+                    "n_ref": 175760
+                },
+                "2": {
+                    "Dice": 0.9785834687553622,
+                    "FN": 8094,
+                    "FP": 2515,
+                    "IoU": 0.958065038915043,
+                    "TN": 19185509,
+                    "TP": 242378,
+                    "n_pred": 244893,
+                    "n_ref": 250472
+                },
+                "3": {
+                    "Dice": 0.9787568297649214,
+                    "FN": 9421,
+                    "FP": 991,
+                    "IoU": 0.958397430006433,
+                    "TN": 19188223,
+                    "TP": 239861,
+                    "n_pred": 240852,
+                    "n_ref": 249282
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_039.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9692134475103077,
+                    "FN": 5586,
+                    "FP": 13828,
+                    "IoU": 0.9402659019651884,
+                    "TN": 91425393,
+                    "TP": 305593,
+                    "n_pred": 319421,
+                    "n_ref": 311179
+                },
+                "2": {
+                    "Dice": 0.980069877732223,
+                    "FN": 3996,
+                    "FP": 12381,
+                    "IoU": 0.9609186515180802,
+                    "TN": 91331351,
+                    "TP": 402672,
+                    "n_pred": 415053,
+                    "n_ref": 406668
+                },
+                "3": {
+                    "Dice": 0.9759185378641109,
+                    "FN": 7927,
+                    "FP": 11787,
+                    "IoU": 0.9529696356661641,
+                    "TN": 91331224,
+                    "TP": 399462,
+                    "n_pred": 411249,
+                    "n_ref": 407389
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_040.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_040.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9770989729853883,
+                    "FN": 6002,
+                    "FP": 7259,
+                    "IoU": 0.955223376632147,
+                    "TN": 27360305,
+                    "TP": 282898,
+                    "n_pred": 290157,
+                    "n_ref": 288900
+                },
+                "2": {
+                    "Dice": 0.981853683427585,
+                    "FN": 9265,
+                    "FP": 8374,
+                    "IoU": 0.9643542067047799,
+                    "TN": 27161623,
+                    "TP": 477202,
+                    "n_pred": 485576,
+                    "n_ref": 486467
+                },
+                "3": {
+                    "Dice": 0.9904900949509376,
+                    "FN": 5563,
+                    "FP": 3426,
+                    "IoU": 0.9811593625748521,
+                    "TN": 27179357,
+                    "TP": 468118,
+                    "n_pred": 471544,
+                    "n_ref": 473681
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_045.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_045.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9839208050414947,
+                    "FN": 5897,
+                    "FP": 5697,
+                    "IoU": 0.9683505084283082,
+                    "TN": 71723275,
+                    "TP": 354731,
+                    "n_pred": 360428,
+                    "n_ref": 360628
+                },
+                "2": {
+                    "Dice": 0.9930174054788514,
+                    "FN": 4398,
+                    "FP": 2036,
+                    "IoU": 0.9861316480361431,
+                    "TN": 71625666,
+                    "TP": 457500,
+                    "n_pred": 459536,
+                    "n_ref": 461898
+                },
+                "3": {
+                    "Dice": 0.9751798652815412,
+                    "FN": 21826,
+                    "FP": 1550,
+                    "IoU": 0.9515619690175633,
+                    "TN": 71607004,
+                    "TP": 459220,
+                    "n_pred": 460770,
+                    "n_ref": 481046
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_046.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_046.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9842697035757252,
+                    "FN": 5821,
+                    "FP": 4613,
+                    "IoU": 0.9690266274824116,
+                    "TN": 50514224,
+                    "TP": 326436,
+                    "n_pred": 331049,
+                    "n_ref": 332257
+                },
+                "2": {
+                    "Dice": 0.9928753253753486,
+                    "FN": 2384,
+                    "FP": 6049,
+                    "IoU": 0.9858514545335577,
+                    "TN": 50255061,
+                    "TP": 587600,
+                    "n_pred": 593649,
+                    "n_ref": 589984
+                },
+                "3": {
+                    "Dice": 0.9872649838994495,
+                    "FN": 10112,
+                    "FP": 4600,
+                    "IoU": 0.9748502502666776,
+                    "TN": 50266118,
+                    "TP": 570264,
+                    "n_pred": 574864,
+                    "n_ref": 580376
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_088.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_088.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9868247560083392,
+                    "FN": 4202,
+                    "FP": 2263,
+                    "IoU": 0.973992171502822,
+                    "TN": 78656765,
+                    "TP": 242114,
+                    "n_pred": 244377,
+                    "n_ref": 246316
+                },
+                "2": {
+                    "Dice": 0.9900197881035874,
+                    "FN": 6177,
+                    "FP": 773,
+                    "IoU": 0.9802368169616452,
+                    "TN": 78553680,
+                    "TP": 344714,
+                    "n_pred": 345487,
+                    "n_ref": 350891
+                },
+                "3": {
+                    "Dice": 0.985396500983367,
+                    "FN": 9021,
+                    "FP": 1211,
+                    "IoU": 0.9712133872378975,
+                    "TN": 78549901,
+                    "TP": 345211,
+                    "n_pred": 346422,
+                    "n_ref": 354232
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_090.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_090.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9884896456603391,
+                    "FN": 4479,
+                    "FP": 2456,
+                    "IoU": 0.977241252567948,
+                    "TN": 71522738,
+                    "TP": 297783,
+                    "n_pred": 300239,
+                    "n_ref": 302262
+                },
+                "2": {
+                    "Dice": 0.9908256212729086,
+                    "FN": 6072,
+                    "FP": 1488,
+                    "IoU": 0.9818180506352859,
+                    "TN": 71411659,
+                    "TP": 408237,
+                    "n_pred": 409725,
+                    "n_ref": 414309
+                },
+                "3": {
+                    "Dice": 0.9900519460721702,
+                    "FN": 8044,
+                    "FP": 570,
+                    "IoU": 0.9802998700989809,
+                    "TN": 71390200,
+                    "TP": 428642,
+                    "n_pred": 429212,
+                    "n_ref": 436686
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_091.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_091.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9865870467179684,
+                    "FN": 6918,
+                    "FP": 692,
+                    "IoU": 0.9735291457670983,
+                    "TN": 76520706,
+                    "TP": 279876,
+                    "n_pred": 280568,
+                    "n_ref": 286794
+                },
+                "2": {
+                    "Dice": 0.9876776473408098,
+                    "FN": 10948,
+                    "FP": 465,
+                    "IoU": 0.9756552789201549,
+                    "TN": 76339384,
+                    "TP": 457395,
+                    "n_pred": 457860,
+                    "n_ref": 468343
+                },
+                "3": {
+                    "Dice": 0.9762876729609085,
+                    "FN": 14204,
+                    "FP": 8165,
+                    "IoU": 0.9536738468165655,
+                    "TN": 76325333,
+                    "TP": 460490,
+                    "n_pred": 468655,
+                    "n_ref": 474694
+                }
+            },
+            "prediction_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/threshold_0_80/predictions/dataset8_092.nii.gz",
+            "reference_file": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset018_PENGWIN_multiclass_anatomy/labelsTs/dataset8_092.nii.gz"
+        }
+    ]
+}

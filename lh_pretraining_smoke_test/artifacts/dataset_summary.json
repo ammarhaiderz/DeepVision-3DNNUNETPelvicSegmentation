@@ -1,0 +1,9 @@
+{
+  "background_value": -1024.0,
+  "train_cases": 85,
+  "test_cases": 15,
+  "erased_test_images": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset017_PENGWIN_erased_LH/imagesTs",
+  "normal_test_images": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/normal_test_images",
+  "binary_test_labels": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset017_PENGWIN_erased_LH/labelsTs",
+  "original_multiclass_test_labels": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/original_multiclass_labelsTs"
+}

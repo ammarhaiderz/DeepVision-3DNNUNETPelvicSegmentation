@@ -1,0 +1,8 @@
+{
+  "evaluated_utc": "2026-06-24T09:18:56.874084+00:00",
+  "checkpoint": "checkpoint_best.pth",
+  "fold": "0",
+  "test_cases": 102,
+  "predictions": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions",
+  "summary": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/summary.json"
+}

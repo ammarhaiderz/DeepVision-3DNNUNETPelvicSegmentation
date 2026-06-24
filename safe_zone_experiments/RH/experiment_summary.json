@@ -1,0 +1,33 @@
+{
+  "dataset_id": 10,
+  "bone": "RH",
+  "prediction_dir": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/predictions/Dataset010_anatomy_RH",
+  "ground_truth_dir": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/nnUNet/nnUNet_raw/Dataset010_anatomy_RH/labelsTs",
+  "distances_mm": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    40.0
+  ],
+  "best_by_average_dice": {
+    "distance_mm": 40.0,
+    "cases": 15,
+    "original_dice": 0.9892926411831933,
+    "filtered_dice": 0.9893004926675053,
+    "dice_change": 7.8514843121269e-06,
+    "original_iou": 0.9788436172553558,
+    "filtered_iou": 0.9788590438088122,
+    "iou_change": 1.5426553456343585e-05,
+    "original_false_positive_voxels": 6844.866666666667,
+    "filtered_false_positive_voxels": 6836.8,
+    "original_false_negative_voxels": 3173.4,
+    "filtered_false_negative_voxels": 3173.4,
+    "removed_voxels": 8.066666666666666,
+    "cases_dice_improved": 3,
+    "cases_dice_worsened": 0
+  },
+  "written_distance_mm": 40.0,
+  "written_masks": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/safe_zone_experiments/RH/40mm"
+}

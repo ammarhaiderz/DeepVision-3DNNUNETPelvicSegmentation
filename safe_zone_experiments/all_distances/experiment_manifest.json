@@ -1,0 +1,44 @@
+{
+  "distances_mm": [
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    30.0,
+    40.0
+  ],
+  "cases": [
+    "dataset8_007",
+    "dataset8_008",
+    "dataset8_012",
+    "dataset8_016",
+    "dataset8_028",
+    "dataset8_033",
+    "dataset8_036",
+    "dataset8_039",
+    "dataset8_040",
+    "dataset8_045",
+    "dataset8_046",
+    "dataset8_088",
+    "dataset8_090",
+    "dataset8_091",
+    "dataset8_092"
+  ],
+  "merge_priority_low_to_high": [
+    "LH",
+    "RH",
+    "S"
+  ],
+  "metrics": [
+    "dice",
+    "iou",
+    "hd95",
+    "assd",
+    "false_positive_voxels",
+    "false_negative_voxels",
+    "prediction_voxels"
+  ],
+  "visualizations": true,
+  "step_size": 3,
+  "output_root": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/safe_zone_experiments/all_distances"
+}

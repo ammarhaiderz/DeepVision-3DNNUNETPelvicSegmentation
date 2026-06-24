@@ -1,0 +1,4748 @@
+{
+    "foreground_mean": {
+        "Dice": 0.9490667831584396,
+        "FN": 10876.651960784315,
+        "FP": 23335.531862745098,
+        "IoU": 0.9115573813794678,
+        "TN": 119225534.26715685,
+        "TP": 442400.0588235294,
+        "n_pred": 465735.5906862745,
+        "n_ref": 453276.7107843137
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.9768911090288259,
+            "FN": 6480.14705882353,
+            "FP": 9038.950980392157,
+            "IoU": 0.9552307907218679,
+            "TN": 119317706.21568628,
+            "TP": 368921.1960784314,
+            "n_pred": 377960.14705882355,
+            "n_ref": 375401.3431372549
+        },
+        "2": {
+            "Dice": 0.9829051347463351,
+            "FN": 8665.225490196079,
+            "FP": 7782.088235294118,
+            "IoU": 0.9672435578842321,
+            "TN": 119116315.85294117,
+            "TP": 569383.3431372549,
+            "n_pred": 577165.431372549,
+            "n_ref": 578048.568627451
+        },
+        "3": {
+            "Dice": 0.9825940998647351,
+            "FN": 10563.588235294117,
+            "FP": 7203.764705882353,
+            "IoU": 0.966168894089787,
+            "TN": 119115607.51960784,
+            "TP": 568771.6372549019,
+            "n_pred": 575975.4019607843,
+            "n_ref": 579335.225490196
+        },
+        "4": {
+            "Dice": 0.8538767889938622,
+            "FN": 17797.647058823528,
+            "FP": 69317.32352941176,
+            "IoU": 0.7575862828219843,
+            "TN": 119352507.48039216,
+            "TP": 262524.0588235294,
+            "n_pred": 331841.3823529412,
+            "n_ref": 280321.70588235295
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9809816481183151,
+                    "FN": 4436,
+                    "FP": 13827,
+                    "IoU": 0.962673190631815,
+                    "TN": 173312199,
+                    "TP": 471010,
+                    "n_pred": 484837,
+                    "n_ref": 475446
+                },
+                "2": {
+                    "Dice": 0.9892308727982178,
+                    "FN": 7495,
+                    "FP": 9622,
+                    "IoU": 0.9786912225315082,
+                    "TN": 172998188,
+                    "TP": 786167,
+                    "n_pred": 795789,
+                    "n_ref": 793662
+                },
+                "3": {
+                    "Dice": 0.988298212706548,
+                    "FN": 7243,
+                    "FP": 11666,
+                    "IoU": 0.9768671214375195,
+                    "TN": 172984064,
+                    "TP": 798499,
+                    "n_pred": 810165,
+                    "n_ref": 805742
+                },
+                "4": {
+                    "Dice": 0.8567235374521234,
+                    "FN": 5684,
+                    "FP": 102387,
+                    "IoU": 0.7493581522205498,
+                    "TN": 173370295,
+                    "TP": 323106,
+                    "n_pred": 425493,
+                    "n_ref": 328790
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0003_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0003_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9601346767268305,
+                    "FN": 14462,
+                    "FP": 35954,
+                    "IoU": 0.923325987739093,
+                    "TN": 104462207,
+                    "TP": 607121,
+                    "n_pred": 643075,
+                    "n_ref": 621583
+                },
+                "2": {
+                    "Dice": 0.985496039052394,
+                    "FN": 16537,
+                    "FP": 14185,
+                    "IoU": 0.9714067928644489,
+                    "TN": 104045293,
+                    "TP": 1043729,
+                    "n_pred": 1057914,
+                    "n_ref": 1060266
+                },
+                "3": {
+                    "Dice": 0.9860463649598209,
+                    "FN": 12530,
+                    "FP": 16675,
+                    "IoU": 0.9724767789019738,
+                    "TN": 104058640,
+                    "TP": 1031899,
+                    "n_pred": 1048574,
+                    "n_ref": 1044429
+                },
+                "4": {
+                    "Dice": 0.8990490717902117,
+                    "FN": 24960,
+                    "FP": 87018,
+                    "IoU": 0.8166113936178053,
+                    "TN": 104509139,
+                    "TP": 498627,
+                    "n_pred": 585645,
+                    "n_ref": 523587
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0005_4_260_hard.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0005_4_260_hard.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9755557760767992,
+                    "FN": 13648,
+                    "FP": 15665,
+                    "IoU": 0.9522780775129183,
+                    "TN": 135962778,
+                    "TP": 584933,
+                    "n_pred": 600598,
+                    "n_ref": 598581
+                },
+                "2": {
+                    "Dice": 0.9890346357396119,
+                    "FN": 8760,
+                    "FP": 10074,
+                    "IoU": 0.978307141573717,
+                    "TN": 135708812,
+                    "TP": 849378,
+                    "n_pred": 859452,
+                    "n_ref": 858138
+                },
+                "3": {
+                    "Dice": 0.9866464124673138,
+                    "FN": 12698,
+                    "FP": 10650,
+                    "IoU": 0.9736447619133622,
+                    "TN": 135691128,
+                    "TP": 862548,
+                    "n_pred": 873198,
+                    "n_ref": 875246
+                },
+                "4": {
+                    "Dice": 0.8654293732115684,
+                    "FN": 105539,
+                    "FP": 11373,
+                    "IoU": 0.7627814018606256,
+                    "TN": 136084179,
+                    "TP": 375933,
+                    "n_pred": 387306,
+                    "n_ref": 481472
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0015_3_325_sacralization.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0015_3_325_sacralization.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9630310308558241,
+                    "FN": 9614,
+                    "FP": 13197,
+                    "IoU": 0.9286980223242614,
+                    "TN": 156704335,
+                    "TP": 297110,
+                    "n_pred": 310307,
+                    "n_ref": 306724
+                },
+                "2": {
+                    "Dice": 0.9729448734403368,
+                    "FN": 14351,
+                    "FP": 9954,
+                    "IoU": 0.9473151423715881,
+                    "TN": 156562928,
+                    "TP": 437023,
+                    "n_pred": 446977,
+                    "n_ref": 451374
+                },
+                "3": {
+                    "Dice": 0.9754754104044239,
+                    "FN": 14105,
+                    "FP": 8531,
+                    "IoU": 0.9521249370788513,
+                    "TN": 156551442,
+                    "TP": 450178,
+                    "n_pred": 458709,
+                    "n_ref": 464283
+                },
+                "4": {
+                    "Dice": 0.8137695833914562,
+                    "FN": 9438,
+                    "FP": 67994,
+                    "IoU": 0.6860130814366061,
+                    "TN": 156777647,
+                    "TP": 169177,
+                    "n_pred": 237171,
+                    "n_ref": 178615
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0023_5_325_veryhard.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0023_5_325_veryhard.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9817213038242185,
+                    "FN": 4427,
+                    "FP": 7518,
+                    "IoU": 0.9640988341513409,
+                    "TN": 134409297,
+                    "TP": 320774,
+                    "n_pred": 328292,
+                    "n_ref": 325201
+                },
+                "2": {
+                    "Dice": 0.9807460307152532,
+                    "FN": 6678,
+                    "FP": 14373,
+                    "IoU": 0.96221948628121,
+                    "TN": 134184824,
+                    "TP": 536141,
+                    "n_pred": 550514,
+                    "n_ref": 542819
+                },
+                "3": {
+                    "Dice": 0.976526612374223,
+                    "FN": 11830,
+                    "FP": 13255,
+                    "IoU": 0.9541299502076358,
+                    "TN": 134195145,
+                    "TP": 521786,
+                    "n_pred": 535041,
+                    "n_ref": 533616
+                },
+                "4": {
+                    "Dice": 0.9157141806060722,
+                    "FN": 45282,
+                    "FP": 7414,
+                    "IoU": 0.8445321005101032,
+                    "TN": 134403065,
+                    "TP": 286255,
+                    "n_pred": 293669,
+                    "n_ref": 331537
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0068_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0068_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9807112225042035,
+                    "FN": 6746,
+                    "FP": 11632,
+                    "IoU": 0.9621524774496478,
+                    "TN": 137402164,
+                    "TP": 467202,
+                    "n_pred": 478834,
+                    "n_ref": 473948
+                },
+                "2": {
+                    "Dice": 0.9886403936154604,
+                    "FN": 8430,
+                    "FP": 8835,
+                    "IoU": 0.9775359697721199,
+                    "TN": 137119182,
+                    "TP": 751297,
+                    "n_pred": 760132,
+                    "n_ref": 759727
+                },
+                "3": {
+                    "Dice": 0.989258450070685,
+                    "FN": 4099,
+                    "FP": 12617,
+                    "IoU": 0.9787452095343935,
+                    "TN": 137101286,
+                    "TP": 769742,
+                    "n_pred": 782359,
+                    "n_ref": 773841
+                },
+                "4": {
+                    "Dice": 0.882500761057911,
+                    "FN": 22215,
+                    "FP": 79296,
+                    "IoU": 0.7897103911170037,
+                    "TN": 137405024,
+                    "TP": 381209,
+                    "n_pred": 460505,
+                    "n_ref": 403424
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0097_2_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0097_2_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.985443489528842,
+                    "FN": 3467,
+                    "FP": 8081,
+                    "IoU": 0.9713046827437971,
+                    "TN": 136698877,
+                    "TP": 390887,
+                    "n_pred": 398968,
+                    "n_ref": 394354
+                },
+                "2": {
+                    "Dice": 0.9902056505558603,
+                    "FN": 6026,
+                    "FP": 6383,
+                    "IoU": 0.9806012987703265,
+                    "TN": 136461630,
+                    "TP": 627273,
+                    "n_pred": 633656,
+                    "n_ref": 633299
+                },
+                "3": {
+                    "Dice": 0.986622390363218,
+                    "FN": 8359,
+                    "FP": 8448,
+                    "IoU": 0.9735979766879261,
+                    "TN": 136464732,
+                    "TP": 619773,
+                    "n_pred": 628221,
+                    "n_ref": 628132
+                },
+                "4": {
+                    "Dice": 0.9548340846988389,
+                    "FN": 21551,
+                    "FP": 8565,
+                    "IoU": 0.9135717791023702,
+                    "TN": 136752861,
+                    "TP": 318335,
+                    "n_pred": 326900,
+                    "n_ref": 339886
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0113_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0113_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9275939796244365,
+                    "FN": 3995,
+                    "FP": 28641,
+                    "IoU": 0.8649652855357778,
+                    "TN": 149704682,
+                    "TP": 209050,
+                    "n_pred": 237691,
+                    "n_ref": 213045
+                },
+                "2": {
+                    "Dice": 0.9832115839274863,
+                    "FN": 10846,
+                    "FP": 1808,
+                    "IoU": 0.9669775622791589,
+                    "TN": 149563174,
+                    "TP": 370540,
+                    "n_pred": 372348,
+                    "n_ref": 381386
+                },
+                "3": {
+                    "Dice": 0.9780001416603885,
+                    "FN": 13450,
+                    "FP": 3633,
+                    "IoU": 0.9569474336809528,
+                    "TN": 149549574,
+                    "TP": 379711,
+                    "n_pred": 383344,
+                    "n_ref": 393161
+                },
+                "4": {
+                    "Dice": 0.9089833909570798,
+                    "FN": 36931,
+                    "FP": 9243,
+                    "IoU": 0.8331526609429654,
+                    "TN": 149669624,
+                    "TP": 230570,
+                    "n_pred": 239813,
+                    "n_ref": 267501
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0140_4_325_sacralization.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0140_4_325_sacralization.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9852481630584724,
+                    "FN": 3512,
+                    "FP": 8016,
+                    "IoU": 0.9709252323484533,
+                    "TN": 152695601,
+                    "TP": 384967,
+                    "n_pred": 392983,
+                    "n_ref": 388479
+                },
+                "2": {
+                    "Dice": 0.9871936931209242,
+                    "FN": 8072,
+                    "FP": 5323,
+                    "IoU": 0.9747112418394432,
+                    "TN": 152562414,
+                    "TP": 516287,
+                    "n_pred": 521610,
+                    "n_ref": 524359
+                },
+                "3": {
+                    "Dice": 0.9861606446972301,
+                    "FN": 7974,
+                    "FP": 6764,
+                    "IoU": 0.9726991160278307,
+                    "TN": 152552260,
+                    "TP": 525098,
+                    "n_pred": 531862,
+                    "n_ref": 533072
+                },
+                "4": {
+                    "Dice": 0.8855850857130705,
+                    "FN": 4205,
+                    "FP": 54976,
+                    "IoU": 0.7946637059139878,
+                    "TN": 152803881,
+                    "TP": 229034,
+                    "n_pred": 284010,
+                    "n_ref": 233239
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0144_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0144_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9790423947164841,
+                    "FN": 9105,
+                    "FP": 17119,
+                    "IoU": 0.958945199731979,
+                    "TN": 125714652,
+                    "TP": 612532,
+                    "n_pred": 629651,
+                    "n_ref": 621637
+                },
+                "2": {
+                    "Dice": 0.9901561734366952,
+                    "FN": 10349,
+                    "FP": 9238,
+                    "IoU": 0.980504259560995,
+                    "TN": 125348727,
+                    "TP": 985094,
+                    "n_pred": 994332,
+                    "n_ref": 995443
+                },
+                "3": {
+                    "Dice": 0.985683321449795,
+                    "FN": 16389,
+                    "FP": 12786,
+                    "IoU": 0.9717707914047744,
+                    "TN": 125319904,
+                    "TP": 1004329,
+                    "n_pred": 1017115,
+                    "n_ref": 1020718
+                },
+                "4": {
+                    "Dice": 0.9351877798789643,
+                    "FN": 17462,
+                    "FP": 52386,
+                    "IoU": 0.8782654464396199,
+                    "TN": 125779635,
+                    "TP": 503925,
+                    "n_pred": 556311,
+                    "n_ref": 521387
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0153_3_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0153_3_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9770099830644442,
+                    "FN": 10367,
+                    "FP": 10267,
+                    "IoU": 0.9550532917135905,
+                    "TN": 142933691,
+                    "TP": 438443,
+                    "n_pred": 448710,
+                    "n_ref": 448810
+                },
+                "2": {
+                    "Dice": 0.9813463691192521,
+                    "FN": 16182,
+                    "FP": 7797,
+                    "IoU": 0.9633759104856483,
+                    "TN": 142738035,
+                    "TP": 630754,
+                    "n_pred": 638551,
+                    "n_ref": 646936
+                },
+                "3": {
+                    "Dice": 0.9764018432646794,
+                    "FN": 17619,
+                    "FP": 11765,
+                    "IoU": 0.9538917560958005,
+                    "TN": 142755485,
+                    "TP": 607899,
+                    "n_pred": 619664,
+                    "n_ref": 625518
+                },
+                "4": {
+                    "Dice": 0.9562322159761261,
+                    "FN": 17943,
+                    "FP": 7283,
+                    "IoU": 0.9161350164398773,
+                    "TN": 143091975,
+                    "TP": 275567,
+                    "n_pred": 282850,
+                    "n_ref": 293510
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0158_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0158_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9759514193071278,
+                    "FN": 7546,
+                    "FP": 22892,
+                    "IoU": 0.9530323440776591,
+                    "TN": 109976705,
+                    "TP": 617625,
+                    "n_pred": 640517,
+                    "n_ref": 625171
+                },
+                "2": {
+                    "Dice": 0.9872860967476684,
+                    "FN": 15291,
+                    "FP": 5134,
+                    "IoU": 0.9748914215327726,
+                    "TN": 109811301,
+                    "TP": 793042,
+                    "n_pred": 798176,
+                    "n_ref": 808333
+                },
+                "3": {
+                    "Dice": 0.9825605824979563,
+                    "FN": 21357,
+                    "FP": 6824,
+                    "IoU": 0.9657190055701598,
+                    "TN": 109802709,
+                    "TP": 793878,
+                    "n_pred": 800702,
+                    "n_ref": 815235
+                },
+                "4": {
+                    "Dice": 0.8656387957525823,
+                    "FN": 107853,
+                    "FP": 3510,
+                    "IoU": 0.763106841552187,
+                    "TN": 110154670,
+                    "TP": 358735,
+                    "n_pred": 362245,
+                    "n_ref": 466588
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0165_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0165_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9891003232489473,
+                    "FN": 4763,
+                    "FP": 5754,
+                    "IoU": 0.9784356905007956,
+                    "TN": 152080104,
+                    "TP": 477187,
+                    "n_pred": 482941,
+                    "n_ref": 481950
+                },
+                "2": {
+                    "Dice": 0.9881313611985085,
+                    "FN": 14356,
+                    "FP": 2604,
+                    "IoU": 0.9765411470493853,
+                    "TN": 151844840,
+                    "TP": 706008,
+                    "n_pred": 708612,
+                    "n_ref": 720364
+                },
+                "3": {
+                    "Dice": 0.9920502692803659,
+                    "FN": 6735,
+                    "FP": 5003,
+                    "IoU": 0.9842259381051506,
+                    "TN": 151823675,
+                    "TP": 732395,
+                    "n_pred": 737398,
+                    "n_ref": 739130
+                },
+                "4": {
+                    "Dice": 0.8225253190517535,
+                    "FN": 5696,
+                    "FP": 131463,
+                    "IoU": 0.6985503232981244,
+                    "TN": 152112810,
+                    "TP": 317839,
+                    "n_pred": 449302,
+                    "n_ref": 323535
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0173_8_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0173_8_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9765855041509152,
+                    "FN": 21865,
+                    "FP": 10014,
+                    "IoU": 0.9542423994499729,
+                    "TN": 142958219,
+                    "TP": 664814,
+                    "n_pred": 674828,
+                    "n_ref": 686679
+                },
+                "2": {
+                    "Dice": 0.9897844365900083,
+                    "FN": 9108,
+                    "FP": 8641,
+                    "IoU": 0.9797754780662672,
+                    "TN": 142777314,
+                    "TP": 859849,
+                    "n_pred": 868490,
+                    "n_ref": 868957
+                },
+                "3": {
+                    "Dice": 0.9879906416358895,
+                    "FN": 9420,
+                    "FP": 11251,
+                    "IoU": 0.9762663096643229,
+                    "TN": 142783956,
+                    "TP": 850285,
+                    "n_pred": 861536,
+                    "n_ref": 859705
+                },
+                "4": {
+                    "Dice": 0.8527749870855252,
+                    "FN": 8007,
+                    "FP": 121098,
+                    "IoU": 0.7433371635779521,
+                    "TN": 143151898,
+                    "TP": 373909,
+                    "n_pred": 495007,
+                    "n_ref": 381916
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0176_2_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0176_2_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9815819094373279,
+                    "FN": 9296,
+                    "FP": 10487,
+                    "IoU": 0.9638300011884193,
+                    "TN": 133670783,
+                    "TP": 527162,
+                    "n_pred": 537649,
+                    "n_ref": 536458
+                },
+                "2": {
+                    "Dice": 0.9894047998607938,
+                    "FN": 12394,
+                    "FP": 6847,
+                    "IoU": 0.9790317623955729,
+                    "TN": 133300102,
+                    "TP": 898385,
+                    "n_pred": 905232,
+                    "n_ref": 910779
+                },
+                "3": {
+                    "Dice": 0.989197273674443,
+                    "FN": 11345,
+                    "FP": 8749,
+                    "IoU": 0.978625450754715,
+                    "TN": 133277638,
+                    "TP": 919996,
+                    "n_pred": 928745,
+                    "n_ref": 931341
+                },
+                "4": {
+                    "Dice": 0.8178055082937423,
+                    "FN": 7289,
+                    "FP": 218550,
+                    "IoU": 0.6917690058878604,
+                    "TN": 133485034,
+                    "TP": 506855,
+                    "n_pred": 725405,
+                    "n_ref": 514144
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0210_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0210_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9806320382324764,
+                    "FN": 10150,
+                    "FP": 10855,
+                    "IoU": 0.9620000578908902,
+                    "TN": 164860100,
+                    "TP": 531759,
+                    "n_pred": 542614,
+                    "n_ref": 541909
+                },
+                "2": {
+                    "Dice": 0.9892350442357705,
+                    "FN": 10539,
+                    "FP": 8804,
+                    "IoU": 0.9786993886108958,
+                    "TN": 164504768,
+                    "TP": 888753,
+                    "n_pred": 897557,
+                    "n_ref": 899292
+                },
+                "3": {
+                    "Dice": 0.9867983643411065,
+                    "FN": 13453,
+                    "FP": 10712,
+                    "IoU": 0.9739407533618747,
+                    "TN": 164485554,
+                    "TP": 903145,
+                    "n_pred": 913857,
+                    "n_ref": 916598
+                },
+                "4": {
+                    "Dice": 0.7432085815951389,
+                    "FN": 6748,
+                    "FP": 288992,
+                    "IoU": 0.5913539595444013,
+                    "TN": 164689157,
+                    "TP": 427967,
+                    "n_pred": 716959,
+                    "n_ref": 434715
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0215_5_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0215_5_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9863689604685212,
+                    "FN": 1864,
+                    "FP": 9308,
+                    "IoU": 0.9731045340959975,
+                    "TN": 156084582,
+                    "TP": 404214,
+                    "n_pred": 413522,
+                    "n_ref": 406078
+                },
+                "2": {
+                    "Dice": 0.9947309802905414,
+                    "FN": 3388,
+                    "FP": 3363,
+                    "IoU": 0.9895171946888776,
+                    "TN": 155855961,
+                    "TP": 637256,
+                    "n_pred": 640619,
+                    "n_ref": 640644
+                },
+                "3": {
+                    "Dice": 0.9903361043293196,
+                    "FN": 7182,
+                    "FP": 5623,
+                    "IoU": 0.980857202655026,
+                    "TN": 155831048,
+                    "TP": 656115,
+                    "n_pred": 661738,
+                    "n_ref": 663297
+                },
+                "4": {
+                    "Dice": 0.8286695273263911,
+                    "FN": 3554,
+                    "FP": 99540,
+                    "IoU": 0.707460060724724,
+                    "TN": 156147558,
+                    "TP": 249316,
+                    "n_pred": 348856,
+                    "n_ref": 252870
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0220_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0220_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9614329964962169,
+                    "FN": 2633,
+                    "FP": 18633,
+                    "IoU": 0.925730350812859,
+                    "TN": 131047809,
+                    "TP": 265069,
+                    "n_pred": 283702,
+                    "n_ref": 267702
+                },
+                "2": {
+                    "Dice": 0.9851977204893436,
+                    "FN": 9712,
+                    "FP": 4948,
+                    "IoU": 0.970827263971472,
+                    "TN": 130831620,
+                    "TP": 487864,
+                    "n_pred": 492812,
+                    "n_ref": 497576
+                },
+                "3": {
+                    "Dice": 0.9765048032944178,
+                    "FN": 15768,
+                    "FP": 6295,
+                    "IoU": 0.9540883107586469,
+                    "TN": 130853591,
+                    "TP": 458490,
+                    "n_pred": 464785,
+                    "n_ref": 474258
+                },
+                "4": {
+                    "Dice": 0.8486994652280853,
+                    "FN": 98438,
+                    "FP": 4660,
+                    "IoU": 0.7371658742399715,
+                    "TN": 130941889,
+                    "TP": 289157,
+                    "n_pred": 293817,
+                    "n_ref": 387595
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0236_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0236_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.983939433722813,
+                    "FN": 7912,
+                    "FP": 8970,
+                    "IoU": 0.9683865966060815,
+                    "TN": 173529602,
+                    "TP": 517132,
+                    "n_pred": 526102,
+                    "n_ref": 525044
+                },
+                "2": {
+                    "Dice": 0.9924976886687187,
+                    "FN": 6202,
+                    "FP": 5329,
+                    "IoU": 0.9851071084464949,
+                    "TN": 173289354,
+                    "TP": 762731,
+                    "n_pred": 768060,
+                    "n_ref": 768933
+                },
+                "3": {
+                    "Dice": 0.9908986370006246,
+                    "FN": 7388,
+                    "FP": 6439,
+                    "IoU": 0.9819614493982584,
+                    "TN": 173297091,
+                    "TP": 752698,
+                    "n_pred": 759137,
+                    "n_ref": 760086
+                },
+                "4": {
+                    "Dice": 0.7020918588698802,
+                    "FN": 3864,
+                    "FP": 199388,
+                    "IoU": 0.540941101007774,
+                    "TN": 173620858,
+                    "TP": 239506,
+                    "n_pred": 438894,
+                    "n_ref": 243370
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0244_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0244_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9840879912022696,
+                    "FN": 5517,
+                    "FP": 3642,
+                    "IoU": 0.9686744350693103,
+                    "TN": 129993187,
+                    "TP": 283222,
+                    "n_pred": 286864,
+                    "n_ref": 288739
+                },
+                "2": {
+                    "Dice": 0.9924026171797053,
+                    "FN": 4639,
+                    "FP": 2595,
+                    "IoU": 0.9849198043785516,
+                    "TN": 129805866,
+                    "TP": 472468,
+                    "n_pred": 475063,
+                    "n_ref": 477107
+                },
+                "3": {
+                    "Dice": 0.9839205274954845,
+                    "FN": 10336,
+                    "FP": 4442,
+                    "IoU": 0.9683499707658073,
+                    "TN": 129818649,
+                    "TP": 452141,
+                    "n_pred": 456583,
+                    "n_ref": 462477
+                },
+                "4": {
+                    "Dice": 0.9704928512683118,
+                    "FN": 12651,
+                    "FP": 3781,
+                    "IoU": 0.9426771367871707,
+                    "TN": 129998911,
+                    "TP": 270225,
+                    "n_pred": 274006,
+                    "n_ref": 282876
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0265_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0265_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9189734618994795,
+                    "FN": 14176,
+                    "FP": 61788,
+                    "IoU": 0.8500933413847678,
+                    "TN": 138953866,
+                    "TP": 430778,
+                    "n_pred": 492566,
+                    "n_ref": 444954
+                },
+                "2": {
+                    "Dice": 0.985936634865374,
+                    "FN": 11198,
+                    "FP": 10163,
+                    "IoU": 0.9722633405008986,
+                    "TN": 138690472,
+                    "TP": 748775,
+                    "n_pred": 758938,
+                    "n_ref": 759973
+                },
+                "3": {
+                    "Dice": 0.9767324912919364,
+                    "FN": 24368,
+                    "FP": 9686,
+                    "IoU": 0.9545231163697551,
+                    "TN": 138711788,
+                    "TP": 714766,
+                    "n_pred": 724452,
+                    "n_ref": 739134
+                },
+                "4": {
+                    "Dice": 0.8922712861522994,
+                    "FN": 82863,
+                    "FP": 18292,
+                    "IoU": 0.8054962149107711,
+                    "TN": 138940541,
+                    "TP": 418912,
+                    "n_pred": 437204,
+                    "n_ref": 501775
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0267_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0267_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9881813677951045,
+                    "FN": 2340,
+                    "FP": 6081,
+                    "IoU": 0.9766388326351707,
+                    "TN": 154566634,
+                    "TP": 352049,
+                    "n_pred": 358130,
+                    "n_ref": 354389
+                },
+                "2": {
+                    "Dice": 0.9941650912476369,
+                    "FN": 3588,
+                    "FP": 2554,
+                    "IoU": 0.9883978798079285,
+                    "TN": 154397718,
+                    "TP": 523244,
+                    "n_pred": 525798,
+                    "n_ref": 526832
+                },
+                "3": {
+                    "Dice": 0.9823683081841931,
+                    "FN": 13593,
+                    "FP": 4495,
+                    "IoU": 0.9653475968612065,
+                    "TN": 154405120,
+                    "TP": 503896,
+                    "n_pred": 508391,
+                    "n_ref": 517489
+                },
+                "4": {
+                    "Dice": 0.8548286300298371,
+                    "FN": 97332,
+                    "FP": 9757,
+                    "IoU": 0.7464635009624012,
+                    "TN": 154504723,
+                    "TP": 315292,
+                    "n_pred": 325049,
+                    "n_ref": 412624
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0291_3_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0291_3_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.987059394063146,
+                    "FN": 3438,
+                    "FP": 8730,
+                    "IoU": 0.9744494280098775,
+                    "TN": 161266616,
+                    "TP": 464064,
+                    "n_pred": 472794,
+                    "n_ref": 467502
+                },
+                "2": {
+                    "Dice": 0.9940822610640698,
+                    "FN": 4908,
+                    "FP": 2468,
+                    "IoU": 0.9882341493605828,
+                    "TN": 161115949,
+                    "TP": 619523,
+                    "n_pred": 621991,
+                    "n_ref": 624431
+                },
+                "3": {
+                    "Dice": 0.9914092267033443,
+                    "FN": 4686,
+                    "FP": 6132,
+                    "IoU": 0.9829647989569128,
+                    "TN": 161107810,
+                    "TP": 624220,
+                    "n_pred": 630352,
+                    "n_ref": 628906
+                },
+                "4": {
+                    "Dice": 0.7293506116433012,
+                    "FN": 889,
+                    "FP": 133342,
+                    "IoU": 0.573998317967597,
+                    "TN": 161427753,
+                    "TP": 180864,
+                    "n_pred": 314206,
+                    "n_ref": 181753
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0304_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0304_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9863860425399783,
+                    "FN": 2730,
+                    "FP": 8494,
+                    "IoU": 0.9731377861170412,
+                    "TN": 143499220,
+                    "TP": 406612,
+                    "n_pred": 415106,
+                    "n_ref": 409342
+                },
+                "2": {
+                    "Dice": 0.9947656012089106,
+                    "FN": 3019,
+                    "FP": 3358,
+                    "IoU": 0.9895857149389546,
+                    "TN": 143304724,
+                    "TP": 605955,
+                    "n_pred": 609313,
+                    "n_ref": 608974
+                },
+                "3": {
+                    "Dice": 0.9872842682569247,
+                    "FN": 9678,
+                    "FP": 5717,
+                    "IoU": 0.9748878558029525,
+                    "TN": 143304006,
+                    "TP": 597655,
+                    "n_pred": 603372,
+                    "n_ref": 607333
+                },
+                "4": {
+                    "Dice": 0.8604809113901251,
+                    "FN": 1927,
+                    "FP": 72435,
+                    "IoU": 0.7551263686506956,
+                    "TN": 143613381,
+                    "TP": 229313,
+                    "n_pred": 301748,
+                    "n_ref": 231240
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0317_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0317_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9901212097231564,
+                    "FN": 2142,
+                    "FP": 5348,
+                    "IoU": 0.98043569115035,
+                    "TN": 159262856,
+                    "TP": 375350,
+                    "n_pred": 380698,
+                    "n_ref": 377492
+                },
+                "2": {
+                    "Dice": 0.995066141179225,
+                    "FN": 3971,
+                    "FP": 2351,
+                    "IoU": 0.9901807292540337,
+                    "TN": 159001860,
+                    "TP": 637514,
+                    "n_pred": 639865,
+                    "n_ref": 641485
+                },
+                "3": {
+                    "Dice": 0.9929381503013166,
+                    "FN": 4587,
+                    "FP": 4374,
+                    "IoU": 0.9859753406391151,
+                    "TN": 159006750,
+                    "TP": 629985,
+                    "n_pred": 634359,
+                    "n_ref": 634572
+                },
+                "4": {
+                    "Dice": 0.8436849029711655,
+                    "FN": 6404,
+                    "FP": 84844,
+                    "IoU": 0.7296323511982364,
+                    "TN": 159308200,
+                    "TP": 246248,
+                    "n_pred": 331092,
+                    "n_ref": 252652
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0318_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0318_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9878124642311501,
+                    "FN": 1697,
+                    "FP": 8099,
+                    "IoU": 0.9759184235368156,
+                    "TN": 145607424,
+                    "TP": 396988,
+                    "n_pred": 405087,
+                    "n_ref": 398685
+                },
+                "2": {
+                    "Dice": 0.9957564132939559,
+                    "FN": 3285,
+                    "FP": 2339,
+                    "IoU": 0.9915486904527552,
+                    "TN": 145348749,
+                    "TP": 659835,
+                    "n_pred": 662174,
+                    "n_ref": 663120
+                },
+                "3": {
+                    "Dice": 0.9925994708643777,
+                    "FN": 4088,
+                    "FP": 5954,
+                    "IoU": 0.9853076727248253,
+                    "TN": 145330722,
+                    "TP": 673444,
+                    "n_pred": 679398,
+                    "n_ref": 677532
+                },
+                "4": {
+                    "Dice": 0.8944333073438718,
+                    "FN": 3389,
+                    "FP": 64174,
+                    "IoU": 0.809027002428042,
+                    "TN": 145660425,
+                    "TP": 286220,
+                    "n_pred": 350394,
+                    "n_ref": 289609
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0320_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0320_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9697087133959978,
+                    "FN": 14842,
+                    "FP": 10639,
+                    "IoU": 0.9411985969446623,
+                    "TN": 112812868,
+                    "TP": 407859,
+                    "n_pred": 418498,
+                    "n_ref": 422701
+                },
+                "2": {
+                    "Dice": 0.9896797401739832,
+                    "FN": 7865,
+                    "FP": 4982,
+                    "IoU": 0.9795703199542014,
+                    "TN": 112617368,
+                    "TP": 615993,
+                    "n_pred": 620975,
+                    "n_ref": 623858
+                },
+                "3": {
+                    "Dice": 0.9858211536011358,
+                    "FN": 11484,
+                    "FP": 6433,
+                    "IoU": 0.9720387652548457,
+                    "TN": 112605428,
+                    "TP": 622863,
+                    "n_pred": 629296,
+                    "n_ref": 634347
+                },
+                "4": {
+                    "Dice": 0.9104781135068869,
+                    "FN": 71864,
+                    "FP": 2620,
+                    "IoU": 0.835667575653279,
+                    "TN": 112792956,
+                    "TP": 378768,
+                    "n_pred": 381388,
+                    "n_ref": 450632
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0357_2_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0357_2_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9714843281061116,
+                    "FN": 11185,
+                    "FP": 9243,
+                    "IoU": 0.9445498543714357,
+                    "TN": 154034413,
+                    "TP": 347975,
+                    "n_pred": 357218,
+                    "n_ref": 359160
+                },
+                "2": {
+                    "Dice": 0.9841511605020515,
+                    "FN": 6236,
+                    "FP": 14700,
+                    "IoU": 0.9687968546466396,
+                    "TN": 153731858,
+                    "TP": 650022,
+                    "n_pred": 664722,
+                    "n_ref": 656258
+                },
+                "3": {
+                    "Dice": 0.9820111773751923,
+                    "FN": 6888,
+                    "FP": 17092,
+                    "IoU": 0.9646581136747161,
+                    "TN": 153724301,
+                    "TP": 654535,
+                    "n_pred": 671627,
+                    "n_ref": 661423
+                },
+                "4": {
+                    "Dice": 0.7783762358178014,
+                    "FN": 5821,
+                    "FP": 120542,
+                    "IoU": 0.6371652702244835,
+                    "TN": 154054550,
+                    "TP": 221903,
+                    "n_pred": 342445,
+                    "n_ref": 227724
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0366_1960_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0366_1960_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9855864116936194,
+                    "FN": 3770,
+                    "FP": 5724,
+                    "IoU": 0.9715824226478573,
+                    "TN": 161933047,
+                    "TP": 324595,
+                    "n_pred": 330319,
+                    "n_ref": 328365
+                },
+                "2": {
+                    "Dice": 0.9923078708449544,
+                    "FN": 4942,
+                    "FP": 3012,
+                    "IoU": 0.9847331760713552,
+                    "TN": 161746137,
+                    "TP": 513045,
+                    "n_pred": 516057,
+                    "n_ref": 517987
+                },
+                "3": {
+                    "Dice": 0.978600042271036,
+                    "FN": 17450,
+                    "FP": 4319,
+                    "IoU": 0.9580968110150585,
+                    "TN": 161747629,
+                    "TP": 497738,
+                    "n_pred": 502057,
+                    "n_ref": 515188
+                },
+                "4": {
+                    "Dice": 0.8970557137296846,
+                    "FN": 7126,
+                    "FP": 60054,
+                    "IoU": 0.8133282205605711,
+                    "TN": 161907253,
+                    "TP": 292703,
+                    "n_pred": 352757,
+                    "n_ref": 299829
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0367_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0367_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.984765625,
+                    "FN": 5882,
+                    "FP": 6754,
+                    "IoU": 0.9699884570988841,
+                    "TN": 168137554,
+                    "TP": 408402,
+                    "n_pred": 415156,
+                    "n_ref": 414284
+                },
+                "2": {
+                    "Dice": 0.9854475298116716,
+                    "FN": 14432,
+                    "FP": 4131,
+                    "IoU": 0.9713125331297512,
+                    "TN": 167911515,
+                    "TP": 628514,
+                    "n_pred": 632645,
+                    "n_ref": 642946
+                },
+                "3": {
+                    "Dice": 0.9911044661175522,
+                    "FN": 4649,
+                    "FP": 7179,
+                    "IoU": 0.9823657978775744,
+                    "TN": 167887850,
+                    "TP": 658914,
+                    "n_pred": 666093,
+                    "n_ref": 663563
+                },
+                "4": {
+                    "Dice": 0.8386265031045669,
+                    "FN": 5777,
+                    "FP": 112762,
+                    "IoU": 0.722098881493655,
+                    "TN": 168132041,
+                    "TP": 308012,
+                    "n_pred": 420774,
+                    "n_ref": 313789
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0374_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0374_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.98191140136654,
+                    "FN": 8988,
+                    "FP": 8744,
+                    "IoU": 0.9644655707612488,
+                    "TN": 130048703,
+                    "TP": 481277,
+                    "n_pred": 490021,
+                    "n_ref": 490265
+                },
+                "2": {
+                    "Dice": 0.9892521315627766,
+                    "FN": 9728,
+                    "FP": 3460,
+                    "IoU": 0.9787328397657838,
+                    "TN": 129927601,
+                    "TP": 606923,
+                    "n_pred": 610383,
+                    "n_ref": 616651
+                },
+                "3": {
+                    "Dice": 0.9899964558872286,
+                    "FN": 6696,
+                    "FP": 5554,
+                    "IoU": 0.9801910712668659,
+                    "TN": 129929304,
+                    "TP": 606158,
+                    "n_pred": 611712,
+                    "n_ref": 612854
+                },
+                "4": {
+                    "Dice": 0.9173787365300362,
+                    "FN": 61018,
+                    "FP": 9267,
+                    "IoU": 0.8473681124548575,
+                    "TN": 130087225,
+                    "TP": 390202,
+                    "n_pred": 399469,
+                    "n_ref": 451220
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0397_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0397_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9859065344132043,
+                    "FN": 4028,
+                    "FP": 6519,
+                    "IoU": 0.9722047995277425,
+                    "TN": 147994050,
+                    "TP": 368907,
+                    "n_pred": 375426,
+                    "n_ref": 372935
+                },
+                "2": {
+                    "Dice": 0.992737953071039,
+                    "FN": 5176,
+                    "FP": 2474,
+                    "IoU": 0.9855806203537555,
+                    "TN": 147842968,
+                    "TP": 522886,
+                    "n_pred": 525360,
+                    "n_ref": 528062
+                },
+                "3": {
+                    "Dice": 0.9865333621573593,
+                    "FN": 9271,
+                    "FP": 4309,
+                    "IoU": 0.9734246055276038,
+                    "TN": 147862505,
+                    "TP": 497419,
+                    "n_pred": 501728,
+                    "n_ref": 506690
+                },
+                "4": {
+                    "Dice": 0.7786914983673963,
+                    "FN": 2316,
+                    "FP": 118464,
+                    "IoU": 0.6375878799881176,
+                    "TN": 148040237,
+                    "TP": 212487,
+                    "n_pred": 330951,
+                    "n_ref": 214803
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0402_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0402_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9856677605409706,
+                    "FN": 4435,
+                    "FP": 7095,
+                    "IoU": 0.9717405423953138,
+                    "TN": 149014075,
+                    "TP": 396475,
+                    "n_pred": 403570,
+                    "n_ref": 400910
+                },
+                "2": {
+                    "Dice": 0.9932994758838553,
+                    "FN": 3677,
+                    "FP": 3908,
+                    "IoU": 0.9866881481520482,
+                    "TN": 148852287,
+                    "TP": 562208,
+                    "n_pred": 566116,
+                    "n_ref": 565885
+                },
+                "3": {
+                    "Dice": 0.9903244758007913,
+                    "FN": 4719,
+                    "FP": 6447,
+                    "IoU": 0.9808343889352323,
+                    "TN": 148839474,
+                    "TP": 571440,
+                    "n_pred": 577887,
+                    "n_ref": 576159
+                },
+                "4": {
+                    "Dice": 0.9201818904106419,
+                    "FN": 2065,
+                    "FP": 39325,
+                    "IoU": 0.8521637878073521,
+                    "TN": 149142108,
+                    "TP": 238582,
+                    "n_pred": 277907,
+                    "n_ref": 240647
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0417_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0417_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9642474210056048,
+                    "FN": 24238,
+                    "FP": 10974,
+                    "IoU": 0.9309630896036828,
+                    "TN": 156514210,
+                    "TP": 474834,
+                    "n_pred": 485808,
+                    "n_ref": 499072
+                },
+                "2": {
+                    "Dice": 0.984830435249426,
+                    "FN": 16373,
+                    "FP": 4396,
+                    "IoU": 0.970114224702351,
+                    "TN": 156329310,
+                    "TP": 674177,
+                    "n_pred": 678573,
+                    "n_ref": 690550
+                },
+                "3": {
+                    "Dice": 0.9299989909927276,
+                    "FN": 79672,
+                    "FP": 13292,
+                    "IoU": 0.8691571158942775,
+                    "TN": 156313755,
+                    "TP": 617537,
+                    "n_pred": 630829,
+                    "n_ref": 697209
+                },
+                "4": {
+                    "Dice": 0.8607380867515018,
+                    "FN": 2796,
+                    "FP": 87457,
+                    "IoU": 0.7555225683769135,
+                    "TN": 156655089,
+                    "TP": 278914,
+                    "n_pred": 366371,
+                    "n_ref": 281710
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0432_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0432_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9850227064862835,
+                    "FN": 6722,
+                    "FP": 7443,
+                    "IoU": 0.9704874313752044,
+                    "TN": 178302243,
+                    "TP": 465800,
+                    "n_pred": 473243,
+                    "n_ref": 472522
+                },
+                "2": {
+                    "Dice": 0.9908476577650924,
+                    "FN": 7982,
+                    "FP": 5303,
+                    "IoU": 0.9818613268743182,
+                    "TN": 178049795,
+                    "TP": 719128,
+                    "n_pred": 724431,
+                    "n_ref": 727110
+                },
+                "3": {
+                    "Dice": 0.9905476916236077,
+                    "FN": 3994,
+                    "FP": 9951,
+                    "IoU": 0.9812724022760511,
+                    "TN": 178037585,
+                    "TP": 730678,
+                    "n_pred": 740629,
+                    "n_ref": 734672
+                },
+                "4": {
+                    "Dice": 0.7245388087676055,
+                    "FN": 2507,
+                    "FP": 226028,
+                    "IoU": 0.5680602543990625,
+                    "TN": 178253118,
+                    "TP": 300555,
+                    "n_pred": 526583,
+                    "n_ref": 303062
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0436_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0436_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9829818619647186,
+                    "FN": 9609,
+                    "FP": 8596,
+                    "IoU": 0.9665332654378067,
+                    "TN": 134460187,
+                    "TP": 525768,
+                    "n_pred": 534364,
+                    "n_ref": 535377
+                },
+                "2": {
+                    "Dice": 0.9909678049665558,
+                    "FN": 8209,
+                    "FP": 4734,
+                    "IoU": 0.9820973105161529,
+                    "TN": 134281196,
+                    "TP": 710021,
+                    "n_pred": 714755,
+                    "n_ref": 718230
+                },
+                "3": {
+                    "Dice": 0.9857461492448568,
+                    "FN": 11380,
+                    "FP": 8565,
+                    "IoU": 0.9718929324359364,
+                    "TN": 134294552,
+                    "TP": 689663,
+                    "n_pred": 698228,
+                    "n_ref": 701043
+                },
+                "4": {
+                    "Dice": 0.8928011181893933,
+                    "FN": 74070,
+                    "FP": 25633,
+                    "IoU": 0.806360205791928,
+                    "TN": 134489271,
+                    "TP": 415186,
+                    "n_pred": 440819,
+                    "n_ref": 489256
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0443_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0443_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9844570523216817,
+                    "FN": 6488,
+                    "FP": 7207,
+                    "IoU": 0.9693898761960746,
+                    "TN": 148974679,
+                    "TP": 433706,
+                    "n_pred": 440913,
+                    "n_ref": 440194
+                },
+                "2": {
+                    "Dice": 0.981777263818801,
+                    "FN": 9360,
+                    "FP": 17539,
+                    "IoU": 0.964206778077766,
+                    "TN": 148670569,
+                    "TP": 724612,
+                    "n_pred": 742151,
+                    "n_ref": 733972
+                },
+                "3": {
+                    "Dice": 0.9781067726149548,
+                    "FN": 7059,
+                    "FP": 25998,
+                    "IoU": 0.957151634244473,
+                    "TN": 148650592,
+                    "TP": 738431,
+                    "n_pred": 764429,
+                    "n_ref": 745490
+                },
+                "4": {
+                    "Dice": 0.7482233325267965,
+                    "FN": 4200,
+                    "FP": 197670,
+                    "IoU": 0.5977290933510818,
+                    "TN": 148920254,
+                    "TP": 299956,
+                    "n_pred": 497626,
+                    "n_ref": 304156
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0450_5_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0450_5_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9816592036263702,
+                    "FN": 2958,
+                    "FP": 9682,
+                    "IoU": 0.9639790599788548,
+                    "TN": 157984069,
+                    "TP": 338267,
+                    "n_pred": 347949,
+                    "n_ref": 341225
+                },
+                "2": {
+                    "Dice": 0.9929731155718636,
+                    "FN": 4817,
+                    "FP": 1336,
+                    "IoU": 0.9860442962610145,
+                    "TN": 157894081,
+                    "TP": 434742,
+                    "n_pred": 436078,
+                    "n_ref": 439559
+                },
+                "3": {
+                    "Dice": 0.9904920968470442,
+                    "FN": 6460,
+                    "FP": 1897,
+                    "IoU": 0.9811632912961649,
+                    "TN": 157891321,
+                    "TP": 435298,
+                    "n_pred": 437195,
+                    "n_ref": 441758
+                },
+                "4": {
+                    "Dice": 0.7370558571507813,
+                    "FN": 1316,
+                    "FP": 107713,
+                    "IoU": 0.583601310734118,
+                    "TN": 158073138,
+                    "TP": 152809,
+                    "n_pred": 260522,
+                    "n_ref": 154125
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0479_5_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0479_5_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9873206866818217,
+                    "FN": 2592,
+                    "FP": 6466,
+                    "IoU": 0.974958877600387,
+                    "TN": 146701059,
+                    "TP": 352667,
+                    "n_pred": 359133,
+                    "n_ref": 355259
+                },
+                "2": {
+                    "Dice": 0.9941930858101665,
+                    "FN": 4397,
+                    "FP": 3459,
+                    "IoU": 0.9884532227649064,
+                    "TN": 146382421,
+                    "TP": 672507,
+                    "n_pred": 675966,
+                    "n_ref": 676904
+                },
+                "3": {
+                    "Dice": 0.9691524612607374,
+                    "FN": 35190,
+                    "FP": 5548,
+                    "IoU": 0.9401511133702866,
+                    "TN": 146382103,
+                    "TP": 639943,
+                    "n_pred": 645491,
+                    "n_ref": 675133
+                },
+                "4": {
+                    "Dice": 0.957841539454765,
+                    "FN": 24088,
+                    "FP": 6669,
+                    "IoU": 0.9190939532877206,
+                    "TN": 146682627,
+                    "TP": 349400,
+                    "n_pred": 356069,
+                    "n_ref": 373488
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0493_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0493_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9841543478995076,
+                    "FN": 5760,
+                    "FP": 5031,
+                    "IoU": 0.9688030320989653,
+                    "TN": 141211861,
+                    "TP": 335108,
+                    "n_pred": 340139,
+                    "n_ref": 340868
+                },
+                "2": {
+                    "Dice": 0.992176596873581,
+                    "FN": 4549,
+                    "FP": 3428,
+                    "IoU": 0.9844746547814832,
+                    "TN": 141043955,
+                    "TP": 505828,
+                    "n_pred": 509256,
+                    "n_ref": 510377
+                },
+                "3": {
+                    "Dice": 0.942495171791699,
+                    "FN": 2510,
+                    "FP": 57160,
+                    "IoU": 0.891244320263332,
+                    "TN": 141009099,
+                    "TP": 488991,
+                    "n_pred": 546151,
+                    "n_ref": 491501
+                },
+                "4": {
+                    "Dice": 0.9360039731745795,
+                    "FN": 20073,
+                    "FP": 19357,
+                    "IoU": 0.8797062672943216,
+                    "TN": 141229979,
+                    "TP": 288351,
+                    "n_pred": 307708,
+                    "n_ref": 308424
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0499_2_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0499_2_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9881431601166726,
+                    "FN": 5304,
+                    "FP": 5391,
+                    "IoU": 0.9765641948228674,
+                    "TN": 158927199,
+                    "TP": 445658,
+                    "n_pred": 451049,
+                    "n_ref": 450962
+                },
+                "2": {
+                    "Dice": 0.9895776991523475,
+                    "FN": 12030,
+                    "FP": 5871,
+                    "IoU": 0.9793704061382866,
+                    "TN": 158515818,
+                    "TP": 849833,
+                    "n_pred": 855704,
+                    "n_ref": 861863
+                },
+                "3": {
+                    "Dice": 0.9924129019341982,
+                    "FN": 5843,
+                    "FP": 7497,
+                    "IoU": 0.984940065071563,
+                    "TN": 158497758,
+                    "TP": 872454,
+                    "n_pred": 879951,
+                    "n_ref": 878297
+                },
+                "4": {
+                    "Dice": 0.8186104202973152,
+                    "FN": 2892,
+                    "FP": 143347,
+                    "IoU": 0.6929216529092218,
+                    "TN": 158907325,
+                    "TP": 329988,
+                    "n_pred": 473335,
+                    "n_ref": 332880
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0509_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0509_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9859989339066155,
+                    "FN": 4098,
+                    "FP": 11793,
+                    "IoU": 0.9723845140571182,
+                    "TN": 163526706,
+                    "TP": 559547,
+                    "n_pred": 571340,
+                    "n_ref": 563645
+                },
+                "2": {
+                    "Dice": 0.9950741804630394,
+                    "FN": 2847,
+                    "FP": 5890,
+                    "IoU": 0.9901966504567865,
+                    "TN": 163210918,
+                    "TP": 882489,
+                    "n_pred": 888379,
+                    "n_ref": 885336
+                },
+                "3": {
+                    "Dice": 0.9914468859342197,
+                    "FN": 7195,
+                    "FP": 8083,
+                    "IoU": 0.9830388425825188,
+                    "TN": 163201380,
+                    "TP": 885486,
+                    "n_pred": 893569,
+                    "n_ref": 892681
+                },
+                "4": {
+                    "Dice": 0.7661845086455634,
+                    "FN": 3539,
+                    "FP": 230410,
+                    "IoU": 0.620987914331076,
+                    "TN": 163484884,
+                    "TP": 383311,
+                    "n_pred": 613721,
+                    "n_ref": 386850
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0522_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0522_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.984116582552078,
+                    "FN": 10047,
+                    "FP": 7744,
+                    "IoU": 0.9687298420761233,
+                    "TN": 171397519,
+                    "TP": 551154,
+                    "n_pred": 558898,
+                    "n_ref": 561201
+                },
+                "2": {
+                    "Dice": 0.9912173466032839,
+                    "FN": 6748,
+                    "FP": 7757,
+                    "IoU": 0.9825876201040061,
+                    "TN": 171133436,
+                    "TP": 818523,
+                    "n_pred": 826280,
+                    "n_ref": 825271
+                },
+                "3": {
+                    "Dice": 0.9911455533745134,
+                    "FN": 4319,
+                    "FP": 10490,
+                    "IoU": 0.9824465329857962,
+                    "TN": 171122813,
+                    "TP": 828842,
+                    "n_pred": 839332,
+                    "n_ref": 833161
+                },
+                "4": {
+                    "Dice": 0.5584021491917635,
+                    "FN": 2423,
+                    "FP": 286881,
+                    "IoU": 0.38734946009991167,
+                    "TN": 171494247,
+                    "TP": 182913,
+                    "n_pred": 469794,
+                    "n_ref": 185336
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0528_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0528_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9877971963768133,
+                    "FN": 4482,
+                    "FP": 6018,
+                    "IoU": 0.9758886191986296,
+                    "TN": 132471529,
+                    "TP": 424979,
+                    "n_pred": 430997,
+                    "n_ref": 429461
+                },
+                "2": {
+                    "Dice": 0.9894589615883196,
+                    "FN": 10021,
+                    "FP": 2957,
+                    "IoU": 0.9791378320899301,
+                    "TN": 132284925,
+                    "TP": 609105,
+                    "n_pred": 612062,
+                    "n_ref": 619126
+                },
+                "3": {
+                    "Dice": 0.9868076278083306,
+                    "FN": 11693,
+                    "FP": 5425,
+                    "IoU": 0.9739588008087102,
+                    "TN": 132249665,
+                    "TP": 640225,
+                    "n_pred": 645650,
+                    "n_ref": 651918
+                },
+                "4": {
+                    "Dice": 0.9708217874473389,
+                    "FN": 12113,
+                    "FP": 10147,
+                    "IoU": 0.9432980368282562,
+                    "TN": 132514429,
+                    "TP": 370319,
+                    "n_pred": 380466,
+                    "n_ref": 382432
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0539_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0539_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9845526786758556,
+                    "FN": 6484,
+                    "FP": 7516,
+                    "IoU": 0.9695753368988141,
+                    "TN": 127728263,
+                    "TP": 446153,
+                    "n_pred": 453669,
+                    "n_ref": 452637
+                },
+                "2": {
+                    "Dice": 0.9910475907026998,
+                    "FN": 8314,
+                    "FP": 6004,
+                    "IoU": 0.9822540504095029,
+                    "TN": 127381584,
+                    "TP": 792514,
+                    "n_pred": 798518,
+                    "n_ref": 800828
+                },
+                "3": {
+                    "Dice": 0.9852672942893166,
+                    "FN": 15181,
+                    "FP": 7839,
+                    "IoU": 0.9709623911247344,
+                    "TN": 127395651,
+                    "TP": 769745,
+                    "n_pred": 777584,
+                    "n_ref": 784926
+                },
+                "4": {
+                    "Dice": 0.8959951720172068,
+                    "FN": 8671,
+                    "FP": 93697,
+                    "IoU": 0.8115862805186678,
+                    "TN": 127645101,
+                    "TP": 440947,
+                    "n_pred": 534644,
+                    "n_ref": 449618
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0547_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0547_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9824365859999015,
+                    "FN": 10316,
+                    "FP": 10358,
+                    "IoU": 0.9654794703534872,
+                    "TN": 134143126,
+                    "TP": 578216,
+                    "n_pred": 588574,
+                    "n_ref": 588532
+                },
+                "2": {
+                    "Dice": 0.9925450983385492,
+                    "FN": 6984,
+                    "FP": 5615,
+                    "IoU": 0.9852005253055864,
+                    "TN": 133890702,
+                    "TP": 838715,
+                    "n_pred": 844330,
+                    "n_ref": 845699
+                },
+                "3": {
+                    "Dice": 0.9892920754006066,
+                    "FN": 11925,
+                    "FP": 6718,
+                    "IoU": 0.9788110405810114,
+                    "TN": 133862171,
+                    "TP": 861202,
+                    "n_pred": 867920,
+                    "n_ref": 873127
+                },
+                "4": {
+                    "Dice": 0.9211814494924261,
+                    "FN": 45528,
+                    "FP": 20569,
+                    "IoU": 0.8538798754053857,
+                    "TN": 134289669,
+                    "TP": 386250,
+                    "n_pred": 406819,
+                    "n_ref": 431778
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0557_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0557_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9727522701402672,
+                    "FN": 10166,
+                    "FP": 7859,
+                    "IoU": 0.9469500314915208,
+                    "TN": 123392194,
+                    "TP": 321749,
+                    "n_pred": 329608,
+                    "n_ref": 331915
+                },
+                "2": {
+                    "Dice": 0.9825491050506877,
+                    "FN": 7997,
+                    "FP": 8983,
+                    "IoU": 0.9656968310983075,
+                    "TN": 123236970,
+                    "TP": 478018,
+                    "n_pred": 487001,
+                    "n_ref": 486015
+                },
+                "3": {
+                    "Dice": 0.9876768356199251,
+                    "FN": 5778,
+                    "FP": 6277,
+                    "IoU": 0.9756536947613537,
+                    "TN": 123236821,
+                    "TP": 483092,
+                    "n_pred": 489369,
+                    "n_ref": 488870
+                },
+                "4": {
+                    "Dice": 0.540566139103235,
+                    "FN": 1435,
+                    "FP": 229459,
+                    "IoU": 0.3703944067537794,
+                    "TN": 123365240,
+                    "TP": 135834,
+                    "n_pred": 365293,
+                    "n_ref": 137269
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0573_3_267_crop.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0573_3_267_crop.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9723363908291895,
+                    "FN": 14252,
+                    "FP": 8841,
+                    "IoU": 0.9461621314135442,
+                    "TN": 113341560,
+                    "TP": 405843,
+                    "n_pred": 414684,
+                    "n_ref": 420095
+                },
+                "2": {
+                    "Dice": 0.9879938805614146,
+                    "FN": 8803,
+                    "FP": 7858,
+                    "IoU": 0.9762726347045294,
+                    "TN": 113068311,
+                    "TP": 685524,
+                    "n_pred": 693382,
+                    "n_ref": 694327
+                },
+                "3": {
+                    "Dice": 0.9888599960219495,
+                    "FN": 4983,
+                    "FP": 10251,
+                    "IoU": 0.9779654569412282,
+                    "TN": 113079127,
+                    "TP": 676135,
+                    "n_pred": 686386,
+                    "n_ref": 681118
+                },
+                "4": {
+                    "Dice": 0.899721130589991,
+                    "FN": 80750,
+                    "FP": 9759,
+                    "IoU": 0.817720993835353,
+                    "TN": 113273955,
+                    "TP": 406032,
+                    "n_pred": 415791,
+                    "n_ref": 486782
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0574_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0574_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9816614039349041,
+                    "FN": 6806,
+                    "FP": 3764,
+                    "IoU": 0.9639833035181873,
+                    "TN": 164857245,
+                    "TP": 282905,
+                    "n_pred": 286669,
+                    "n_ref": 289711
+                },
+                "2": {
+                    "Dice": 0.9468308222742132,
+                    "FN": 7723,
+                    "FP": 45819,
+                    "IoU": 0.8990301295360726,
+                    "TN": 164620443,
+                    "TP": 476735,
+                    "n_pred": 522554,
+                    "n_ref": 484458
+                },
+                "3": {
+                    "Dice": 0.9894255751310499,
+                    "FN": 4450,
+                    "FP": 5957,
+                    "IoU": 0.9790724470979535,
+                    "TN": 164653433,
+                    "TP": 486880,
+                    "n_pred": 492837,
+                    "n_ref": 491330
+                },
+                "4": {
+                    "Dice": 0.7913263379148399,
+                    "FN": 4073,
+                    "FP": 123003,
+                    "IoU": 0.6547063634609793,
+                    "TN": 164782697,
+                    "TP": 240947,
+                    "n_pred": 363950,
+                    "n_ref": 245020
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0578_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0578_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9814135023116463,
+                    "FN": 9379,
+                    "FP": 6155,
+                    "IoU": 0.9635053130381462,
+                    "TN": 146637133,
+                    "TP": 410117,
+                    "n_pred": 416272,
+                    "n_ref": 419496
+                },
+                "2": {
+                    "Dice": 0.991357652853321,
+                    "FN": 7065,
+                    "FP": 5130,
+                    "IoU": 0.9828634061000372,
+                    "TN": 146351149,
+                    "TP": 699440,
+                    "n_pred": 704570,
+                    "n_ref": 706505
+                },
+                "3": {
+                    "Dice": 0.9835381077598473,
+                    "FN": 14042,
+                    "FP": 9503,
+                    "IoU": 0.9676094256640102,
+                    "TN": 146335875,
+                    "TP": 703364,
+                    "n_pred": 712867,
+                    "n_ref": 717406
+                },
+                "4": {
+                    "Dice": 0.8674927734002436,
+                    "FN": 7251,
+                    "FP": 101115,
+                    "IoU": 0.7659931460259259,
+                    "TN": 146599695,
+                    "TP": 354723,
+                    "n_pred": 455838,
+                    "n_ref": 361974
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0582_5930_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0582_5930_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9864667551523215,
+                    "FN": 3959,
+                    "FP": 8878,
+                    "IoU": 0.9732949167351439,
+                    "TN": 148941385,
+                    "TP": 467858,
+                    "n_pred": 476736,
+                    "n_ref": 471817
+                },
+                "2": {
+                    "Dice": 0.9876589325272291,
+                    "FN": 12289,
+                    "FP": 4825,
+                    "IoU": 0.9756187556362217,
+                    "TN": 148720147,
+                    "TP": 684819,
+                    "n_pred": 689644,
+                    "n_ref": 697108
+                },
+                "3": {
+                    "Dice": 0.9750332508268734,
+                    "FN": 26895,
+                    "FP": 6462,
+                    "IoU": 0.9512828114799469,
+                    "TN": 148737373,
+                    "TP": 651350,
+                    "n_pred": 657812,
+                    "n_ref": 678245
+                },
+                "4": {
+                    "Dice": 0.8933202559837002,
+                    "FN": 76424,
+                    "FP": 2324,
+                    "IoU": 0.8072075601038046,
+                    "TN": 149013620,
+                    "TP": 329712,
+                    "n_pred": 332036,
+                    "n_ref": 406136
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0585_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0585_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9816549192139329,
+                    "FN": 2599,
+                    "FP": 8184,
+                    "IoU": 0.9639707970663415,
+                    "TN": 141782763,
+                    "TP": 288502,
+                    "n_pred": 296686,
+                    "n_ref": 291101
+                },
+                "2": {
+                    "Dice": 0.9918038857481423,
+                    "FN": 5189,
+                    "FP": 2779,
+                    "IoU": 0.9837410318568035,
+                    "TN": 141591980,
+                    "TP": 482100,
+                    "n_pred": 484879,
+                    "n_ref": 487289
+                },
+                "3": {
+                    "Dice": 0.9846200374134264,
+                    "FN": 10577,
+                    "FP": 4781,
+                    "IoU": 0.9697059954829229,
+                    "TN": 141575083,
+                    "TP": 491607,
+                    "n_pred": 496388,
+                    "n_ref": 502184
+                },
+                "4": {
+                    "Dice": 0.9243994171637795,
+                    "FN": 8644,
+                    "FP": 39920,
+                    "IoU": 0.859426288823921,
+                    "TN": 141736578,
+                    "TP": 296906,
+                    "n_pred": 336826,
+                    "n_ref": 305550
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0599_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0599_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9822220415086229,
+                    "FN": 4285,
+                    "FP": 11018,
+                    "IoU": 0.965065153272274,
+                    "TN": 166809828,
+                    "TP": 422741,
+                    "n_pred": 433759,
+                    "n_ref": 427026
+                },
+                "2": {
+                    "Dice": 0.9949400842521925,
+                    "FN": 4372,
+                    "FP": 3666,
+                    "IoU": 0.9899311162080469,
+                    "TN": 166449571,
+                    "TP": 790263,
+                    "n_pred": 793929,
+                    "n_ref": 794635
+                },
+                "3": {
+                    "Dice": 0.9895758071056876,
+                    "FN": 10450,
+                    "FP": 6387,
+                    "IoU": 0.9793666997136068,
+                    "TN": 166431861,
+                    "TP": 799174,
+                    "n_pred": 805561,
+                    "n_ref": 809624
+                },
+                "4": {
+                    "Dice": 0.7549297648157943,
+                    "FN": 6118,
+                    "FP": 229705,
+                    "IoU": 0.6063350833409844,
+                    "TN": 166648827,
+                    "TP": 363222,
+                    "n_pred": 592927,
+                    "n_ref": 369340
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0602_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0602_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9866599613832918,
+                    "FN": 4041,
+                    "FP": 9010,
+                    "IoU": 0.9736711506338613,
+                    "TN": 156266420,
+                    "TP": 482641,
+                    "n_pred": 491651,
+                    "n_ref": 486682
+                },
+                "2": {
+                    "Dice": 0.9943532020286997,
+                    "FN": 5788,
+                    "FP": 4287,
+                    "IoU": 0.9887698186228175,
+                    "TN": 155864976,
+                    "TP": 887061,
+                    "n_pred": 891348,
+                    "n_ref": 892849
+                },
+                "3": {
+                    "Dice": 0.9938542727741558,
+                    "FN": 4653,
+                    "FP": 6394,
+                    "IoU": 0.9877836240625117,
+                    "TN": 155857834,
+                    "TP": 893231,
+                    "n_pred": 899625,
+                    "n_ref": 897884
+                },
+                "4": {
+                    "Dice": 0.8715737519131066,
+                    "FN": 10360,
+                    "FP": 110893,
+                    "IoU": 0.7723798993427808,
+                    "TN": 156229413,
+                    "TP": 411446,
+                    "n_pred": 522339,
+                    "n_ref": 421806
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0635_8464_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0635_8464_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9825409257418614,
+                    "FN": 7191,
+                    "FP": 12693,
+                    "IoU": 0.9656810289477863,
+                    "TN": 116074692,
+                    "TP": 559504,
+                    "n_pred": 572197,
+                    "n_ref": 566695
+                },
+                "2": {
+                    "Dice": 0.9884357802843728,
+                    "FN": 13161,
+                    "FP": 4640,
+                    "IoU": 0.9771359652897211,
+                    "TN": 115875521,
+                    "TP": 760758,
+                    "n_pred": 765398,
+                    "n_ref": 773919
+                },
+                "3": {
+                    "Dice": 0.9794935511303001,
+                    "FN": 25719,
+                    "FP": 4930,
+                    "IoU": 0.9598112311932717,
+                    "TN": 115891454,
+                    "TP": 731977,
+                    "n_pred": 736907,
+                    "n_ref": 757696
+                },
+                "4": {
+                    "Dice": 0.9221211181870856,
+                    "FN": 53339,
+                    "FP": 6204,
+                    "IoU": 0.8554960429655553,
+                    "TN": 116242029,
+                    "TP": 352508,
+                    "n_pred": 358712,
+                    "n_ref": 405847
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0641_5_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0641_5_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9881415611055893,
+                    "FN": 2442,
+                    "FP": 11016,
+                    "IoU": 0.9765610713147431,
+                    "TN": 130759971,
+                    "TP": 560715,
+                    "n_pred": 571731,
+                    "n_ref": 563157
+                },
+                "2": {
+                    "Dice": 0.9930044191392803,
+                    "FN": 9657,
+                    "FP": 2089,
+                    "IoU": 0.9861060346367354,
+                    "TN": 130488741,
+                    "TP": 833657,
+                    "n_pred": 835746,
+                    "n_ref": 843314
+                },
+                "3": {
+                    "Dice": 0.9927032127680288,
+                    "FN": 6996,
+                    "FP": 5446,
+                    "IoU": 0.9855121403652589,
+                    "TN": 130475356,
+                    "TP": 846346,
+                    "n_pred": 851792,
+                    "n_ref": 853342
+                },
+                "4": {
+                    "Dice": 0.9717802889624534,
+                    "FN": 24018,
+                    "FP": 4096,
+                    "IoU": 0.9451095699982819,
+                    "TN": 130821960,
+                    "TP": 484070,
+                    "n_pred": 488166,
+                    "n_ref": 508088
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0652_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0652_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9790959795646677,
+                    "FN": 5203,
+                    "FP": 10452,
+                    "IoU": 0.9590480201529258,
+                    "TN": 142224059,
+                    "TP": 366622,
+                    "n_pred": 377074,
+                    "n_ref": 371825
+                },
+                "2": {
+                    "Dice": 0.9925027097532747,
+                    "FN": 3839,
+                    "FP": 4323,
+                    "IoU": 0.9851170016648098,
+                    "TN": 142057925,
+                    "TP": 540249,
+                    "n_pred": 544572,
+                    "n_ref": 544088
+                },
+                "3": {
+                    "Dice": 0.9905166787461823,
+                    "FN": 5429,
+                    "FP": 5091,
+                    "IoU": 0.98121153454613,
+                    "TN": 142046418,
+                    "TP": 549398,
+                    "n_pred": 554489,
+                    "n_ref": 554827
+                },
+                "4": {
+                    "Dice": 0.9663079874575985,
+                    "FN": 16840,
+                    "FP": 7852,
+                    "IoU": 0.9348122803821713,
+                    "TN": 142227553,
+                    "TP": 354091,
+                    "n_pred": 361943,
+                    "n_ref": 370931
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0658_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0658_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9784105355681051,
+                    "FN": 13532,
+                    "FP": 9360,
+                    "IoU": 0.9577335804967394,
+                    "TN": 143375444,
+                    "TP": 518720,
+                    "n_pred": 528080,
+                    "n_ref": 532252
+                },
+                "2": {
+                    "Dice": 0.987848436948211,
+                    "FN": 8982,
+                    "FP": 7569,
+                    "IoU": 0.9759886493379506,
+                    "TN": 143227757,
+                    "TP": 672748,
+                    "n_pred": 680317,
+                    "n_ref": 681730
+                },
+                "3": {
+                    "Dice": 0.9856493839483992,
+                    "FN": 10145,
+                    "FP": 9752,
+                    "IoU": 0.9717048211446628,
+                    "TN": 143213862,
+                    "TP": 683297,
+                    "n_pred": 693049,
+                    "n_ref": 693442
+                },
+                "4": {
+                    "Dice": 0.9677243298591435,
+                    "FN": 19139,
+                    "FP": 7118,
+                    "IoU": 0.9374669556312367,
+                    "TN": 143497166,
+                    "TP": 393633,
+                    "n_pred": 400751,
+                    "n_ref": 412772
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0664_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0664_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9781958626527697,
+                    "FN": 7407,
+                    "FP": 2896,
+                    "IoU": 0.9573222762557266,
+                    "TN": 133714170,
+                    "TP": 231111,
+                    "n_pred": 234007,
+                    "n_ref": 238518
+                },
+                "2": {
+                    "Dice": 0.988710596721991,
+                    "FN": 5598,
+                    "FP": 3335,
+                    "IoU": 0.9776732491383469,
+                    "TN": 133555481,
+                    "TP": 391170,
+                    "n_pred": 394505,
+                    "n_ref": 396768
+                },
+                "3": {
+                    "Dice": 0.9882496748443166,
+                    "FN": 4196,
+                    "FP": 5263,
+                    "IoU": 0.9767722829169828,
+                    "TN": 133548355,
+                    "TP": 397770,
+                    "n_pred": 403033,
+                    "n_ref": 401966
+                },
+                "4": {
+                    "Dice": 0.9379810749669003,
+                    "FN": 5397,
+                    "FP": 30297,
+                    "IoU": 0.8832056123083366,
+                    "TN": 133649970,
+                    "TP": 269920,
+                    "n_pred": 300217,
+                    "n_ref": 275317
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0666_4_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0666_4_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9847862502581518,
+                    "FN": 5211,
+                    "FP": 8049,
+                    "IoU": 0.970028479725148,
+                    "TN": 134561740,
+                    "TP": 429160,
+                    "n_pred": 437209,
+                    "n_ref": 434371
+                },
+                "2": {
+                    "Dice": 0.9836681897851561,
+                    "FN": 16060,
+                    "FP": 5278,
+                    "IoU": 0.9678612633183419,
+                    "TN": 134340226,
+                    "TP": 642596,
+                    "n_pred": 647874,
+                    "n_ref": 658656
+                },
+                "3": {
+                    "Dice": 0.9862114963807577,
+                    "FN": 10212,
+                    "FP": 7753,
+                    "IoU": 0.9727980667170378,
+                    "TN": 134343729,
+                    "TP": 642466,
+                    "n_pred": 650219,
+                    "n_ref": 652678
+                },
+                "4": {
+                    "Dice": 0.9359162176887221,
+                    "FN": 41452,
+                    "FP": 6185,
+                    "IoU": 0.8795512470416894,
+                    "TN": 134608664,
+                    "TP": 347859,
+                    "n_pred": 354044,
+                    "n_ref": 389311
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0667_2_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0667_2_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9830603210184092,
+                    "FN": 14467,
+                    "FP": 8748,
+                    "IoU": 0.9666849876512736,
+                    "TN": 149773823,
+                    "TP": 673618,
+                    "n_pred": 682366,
+                    "n_ref": 688085
+                },
+                "2": {
+                    "Dice": 0.9884559667608255,
+                    "FN": 15456,
+                    "FP": 10650,
+                    "IoU": 0.977175421217783,
+                    "TN": 149326889,
+                    "TP": 1117661,
+                    "n_pred": 1128311,
+                    "n_ref": 1133117
+                },
+                "3": {
+                    "Dice": 0.9908085505951989,
+                    "FN": 9620,
+                    "FP": 10623,
+                    "IoU": 0.9817845277816771,
+                    "TN": 149359348,
+                    "TP": 1091065,
+                    "n_pred": 1101688,
+                    "n_ref": 1100685
+                },
+                "4": {
+                    "Dice": 0.7336021234906486,
+                    "FN": 4555,
+                    "FP": 252272,
+                    "IoU": 0.5792824965189615,
+                    "TN": 149860206,
+                    "TP": 353623,
+                    "n_pred": 605895,
+                    "n_ref": 358178
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0668_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0668_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9829554455729013,
+                    "FN": 4767,
+                    "FP": 13093,
+                    "IoU": 0.9664821873281649,
+                    "TN": 134471309,
+                    "TP": 514991,
+                    "n_pred": 528084,
+                    "n_ref": 519758
+                },
+                "2": {
+                    "Dice": 0.9903596788754055,
+                    "FN": 9594,
+                    "FP": 4171,
+                    "IoU": 0.9809034545810206,
+                    "TN": 134283349,
+                    "TP": 707046,
+                    "n_pred": 711217,
+                    "n_ref": 716640
+                },
+                "3": {
+                    "Dice": 0.9852881140445597,
+                    "FN": 14361,
+                    "FP": 6144,
+                    "IoU": 0.9710028311305573,
+                    "TN": 134297022,
+                    "TP": 686633,
+                    "n_pred": 692777,
+                    "n_ref": 700994
+                },
+                "4": {
+                    "Dice": 0.8737808708217776,
+                    "FN": 14371,
+                    "FP": 110010,
+                    "IoU": 0.7758533381148981,
+                    "TN": 134449251,
+                    "TP": 430528,
+                    "n_pred": 540538,
+                    "n_ref": 444899
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0676_6_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0676_6_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9838877361448515,
+                    "FN": 8097,
+                    "FP": 10454,
+                    "IoU": 0.9682864493849954,
+                    "TN": 139662085,
+                    "TP": 566404,
+                    "n_pred": 576858,
+                    "n_ref": 574501
+                },
+                "2": {
+                    "Dice": 0.9909520492399825,
+                    "FN": 8549,
+                    "FP": 5375,
+                    "IoU": 0.9820663611611271,
+                    "TN": 139470622,
+                    "TP": 762494,
+                    "n_pred": 767869,
+                    "n_ref": 771043
+                },
+                "3": {
+                    "Dice": 0.9918142674636847,
+                    "FN": 7292,
+                    "FP": 5683,
+                    "IoU": 0.9837614592784957,
+                    "TN": 139448015,
+                    "TP": 786050,
+                    "n_pred": 791733,
+                    "n_ref": 793342
+                },
+                "4": {
+                    "Dice": 0.879785093984312,
+                    "FN": 18575,
+                    "FP": 78713,
+                    "IoU": 0.7853717079283278,
+                    "TN": 139793754,
+                    "TP": 355998,
+                    "n_pred": 434711,
+                    "n_ref": 374573
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0679_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0679_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9846686752893659,
+                    "FN": 5087,
+                    "FP": 6642,
+                    "IoU": 0.969800351200622,
+                    "TN": 158995170,
+                    "TP": 376653,
+                    "n_pred": 383295,
+                    "n_ref": 381740
+                },
+                "2": {
+                    "Dice": 0.9906216424659247,
+                    "FN": 7197,
+                    "FP": 5486,
+                    "IoU": 0.9814175577194129,
+                    "TN": 158701026,
+                    "TP": 669843,
+                    "n_pred": 675329,
+                    "n_ref": 677040
+                },
+                "3": {
+                    "Dice": 0.9872215479364205,
+                    "FN": 9159,
+                    "FP": 7718,
+                    "IoU": 0.9747655530436239,
+                    "TN": 158714744,
+                    "TP": 651931,
+                    "n_pred": 659649,
+                    "n_ref": 661090
+                },
+                "4": {
+                    "Dice": 0.901700499006831,
+                    "FN": 8690,
+                    "FP": 66383,
+                    "IoU": 0.8209969122187913,
+                    "TN": 158964157,
+                    "TP": 344322,
+                    "n_pred": 410705,
+                    "n_ref": 353012
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0695_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0695_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9876866724712523,
+                    "FN": 2992,
+                    "FP": 7261,
+                    "IoU": 0.9756728925839455,
+                    "TN": 151884200,
+                    "TP": 411211,
+                    "n_pred": 418472,
+                    "n_ref": 414203
+                },
+                "2": {
+                    "Dice": 0.9937563069736989,
+                    "FN": 4616,
+                    "FP": 2784,
+                    "IoU": 0.9875900975686653,
+                    "TN": 151709366,
+                    "TP": 588898,
+                    "n_pred": 591682,
+                    "n_ref": 593514
+                },
+                "3": {
+                    "Dice": 0.9847313385579439,
+                    "FN": 13307,
+                    "FP": 4970,
+                    "IoU": 0.9699219289988349,
+                    "TN": 151698012,
+                    "TP": 589375,
+                    "n_pred": 594345,
+                    "n_ref": 602682
+                },
+                "4": {
+                    "Dice": 0.9364490990865647,
+                    "FN": 29948,
+                    "FP": 13445,
+                    "IoU": 0.8804929771412834,
+                    "TN": 151942564,
+                    "TP": 319707,
+                    "n_pred": 333152,
+                    "n_ref": 349655
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0720_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0720_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9819214000708663,
+                    "FN": 6772,
+                    "FP": 7310,
+                    "IoU": 0.9644848640755397,
+                    "TN": 154792741,
+                    "TP": 382425,
+                    "n_pred": 389735,
+                    "n_ref": 389197
+                },
+                "2": {
+                    "Dice": 0.9904782525187268,
+                    "FN": 8797,
+                    "FP": 4836,
+                    "IoU": 0.9811361221191525,
+                    "TN": 154466544,
+                    "TP": 709071,
+                    "n_pred": 713907,
+                    "n_ref": 717868
+                },
+                "3": {
+                    "Dice": 0.9905496538853901,
+                    "FN": 7877,
+                    "FP": 5259,
+                    "IoU": 0.9812762536543091,
+                    "TN": 154487679,
+                    "TP": 688433,
+                    "n_pred": 693692,
+                    "n_ref": 696310
+                },
+                "4": {
+                    "Dice": 0.8354726315229534,
+                    "FN": 5989,
+                    "FP": 117729,
+                    "IoU": 0.7174349475492133,
+                    "TN": 154751409,
+                    "TP": 314121,
+                    "n_pred": 431850,
+                    "n_ref": 320110
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0724_4_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0724_4_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9837932960942094,
+                    "FN": 5355,
+                    "FP": 13414,
+                    "IoU": 0.9681035288519547,
+                    "TN": 133629293,
+                    "TP": 569666,
+                    "n_pred": 583080,
+                    "n_ref": 575021
+                },
+                "2": {
+                    "Dice": 0.9915871532125787,
+                    "FN": 9519,
+                    "FP": 4314,
+                    "IoU": 0.9833146774870575,
+                    "TN": 133388676,
+                    "TP": 815219,
+                    "n_pred": 819533,
+                    "n_ref": 824738
+                },
+                "3": {
+                    "Dice": 0.984506483459503,
+                    "FN": 17017,
+                    "FP": 7156,
+                    "IoU": 0.9694857401093429,
+                    "TN": 133425541,
+                    "TP": 768014,
+                    "n_pred": 775170,
+                    "n_ref": 785031
+                },
+                "4": {
+                    "Dice": 0.8991128307144476,
+                    "FN": 2714,
+                    "FP": 76502,
+                    "IoU": 0.8167166043891209,
+                    "TN": 133785523,
+                    "TP": 352989,
+                    "n_pred": 429491,
+                    "n_ref": 355703
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0726_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0726_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9832249577024148,
+                    "FN": 8301,
+                    "FP": 12203,
+                    "IoU": 0.9670034341919349,
+                    "TN": 136217770,
+                    "TP": 600894,
+                    "n_pred": 613097,
+                    "n_ref": 609195
+                },
+                "2": {
+                    "Dice": 0.9911060194266671,
+                    "FN": 10172,
+                    "FP": 5611,
+                    "IoU": 0.9823688499592818,
+                    "TN": 135943991,
+                    "TP": 879394,
+                    "n_pred": 885005,
+                    "n_ref": 889566
+                },
+                "3": {
+                    "Dice": 0.987349574631786,
+                    "FN": 14976,
+                    "FP": 8010,
+                    "IoU": 0.9750152173913044,
+                    "TN": 135919168,
+                    "TP": 897014,
+                    "n_pred": 905024,
+                    "n_ref": 911990
+                },
+                "4": {
+                    "Dice": 0.8972852269202936,
+                    "FN": 8995,
+                    "FP": 90361,
+                    "IoU": 0.8137056370563706,
+                    "TN": 136305840,
+                    "TP": 433972,
+                    "n_pred": 524333,
+                    "n_ref": 442967
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0732_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0732_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9789873701668876,
+                    "FN": 5004,
+                    "FP": 18789,
+                    "IoU": 0.9588396279945196,
+                    "TN": 146222584,
+                    "TP": 554263,
+                    "n_pred": 573052,
+                    "n_ref": 559267
+                },
+                "2": {
+                    "Dice": 0.9927090647190393,
+                    "FN": 11343,
+                    "FP": 4773,
+                    "IoU": 0.9855236753839604,
+                    "TN": 145687374,
+                    "TP": 1097150,
+                    "n_pred": 1101923,
+                    "n_ref": 1108493
+                },
+                "3": {
+                    "Dice": 0.9914363802004251,
+                    "FN": 11843,
+                    "FP": 7615,
+                    "IoU": 0.9830181861977598,
+                    "TN": 145654826,
+                    "TP": 1126356,
+                    "n_pred": 1133971,
+                    "n_ref": 1138199
+                },
+                "4": {
+                    "Dice": 0.8859980372638967,
+                    "FN": 9039,
+                    "FP": 120835,
+                    "IoU": 0.795328973288157,
+                    "TN": 146166090,
+                    "TP": 504676,
+                    "n_pred": 625511,
+                    "n_ref": 513715
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0760_3_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0760_3_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.975773581203421,
+                    "FN": 23524,
+                    "FP": 9565,
+                    "IoU": 0.9526932358861744,
+                    "TN": 154489792,
+                    "TP": 666367,
+                    "n_pred": 675932,
+                    "n_ref": 689891
+                },
+                "2": {
+                    "Dice": 0.9908142945849303,
+                    "FN": 11573,
+                    "FP": 7303,
+                    "IoU": 0.9817958075193075,
+                    "TN": 154152344,
+                    "TP": 1018028,
+                    "n_pred": 1025331,
+                    "n_ref": 1029601
+                },
+                "3": {
+                    "Dice": 0.9890474468027179,
+                    "FN": 12587,
+                    "FP": 9941,
+                    "IoU": 0.9783322112147735,
+                    "TN": 154149548,
+                    "TP": 1017172,
+                    "n_pred": 1027113,
+                    "n_ref": 1029759
+                },
+                "4": {
+                    "Dice": 0.8274464109997075,
+                    "FN": 10426,
+                    "FP": 197196,
+                    "IoU": 0.7056789717433555,
+                    "TN": 154483821,
+                    "TP": 497805,
+                    "n_pred": 695001,
+                    "n_ref": 508231
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0761_9662_324.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0761_9662_324.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.986613140222653,
+                    "FN": 8382,
+                    "FP": 7771,
+                    "IoU": 0.9735799617921072,
+                    "TN": 120236992,
+                    "TP": 595239,
+                    "n_pred": 603010,
+                    "n_ref": 603621
+                },
+                "2": {
+                    "Dice": 0.9902970778777941,
+                    "FN": 11916,
+                    "FP": 5513,
+                    "IoU": 0.980780639711704,
+                    "TN": 119941538,
+                    "TP": 889417,
+                    "n_pred": 894930,
+                    "n_ref": 901333
+                },
+                "3": {
+                    "Dice": 0.9900683770107569,
+                    "FN": 12038,
+                    "FP": 5797,
+                    "IoU": 0.9803320883054498,
+                    "TN": 119941577,
+                    "TP": 888972,
+                    "n_pred": 894769,
+                    "n_ref": 901010
+                },
+                "4": {
+                    "Dice": 0.9052396478676107,
+                    "FN": 14581,
+                    "FP": 80542,
+                    "IoU": 0.8268838436689567,
+                    "TN": 120298909,
+                    "TP": 454352,
+                    "n_pred": 534894,
+                    "n_ref": 468933
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0780_6_325.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset2_1_3_6_1_4_1_9328_50_4_0780_6_325.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9430341394524266,
+                    "FN": 7924,
+                    "FP": 3451,
+                    "IoU": 0.8922087029034949,
+                    "TN": 22963144,
+                    "TP": 94153,
+                    "n_pred": 97604,
+                    "n_ref": 102077
+                },
+                "2": {
+                    "Dice": 0.9801345143775965,
+                    "FN": 3847,
+                    "FP": 1762,
+                    "IoU": 0.9610429298717174,
+                    "TN": 22924693,
+                    "TP": 138370,
+                    "n_pred": 140132,
+                    "n_ref": 142217
+                },
+                "3": {
+                    "Dice": 0.9767841970364155,
+                    "FN": 5398,
+                    "FP": 1187,
+                    "IoU": 0.9546218834847086,
+                    "TN": 22923558,
+                    "TP": 138529,
+                    "n_pred": 139716,
+                    "n_ref": 143927
+                },
+                "4": {
+                    "Dice": 0.722779622694835,
+                    "FN": 1413,
+                    "FP": 45669,
+                    "IoU": 0.5659004785218378,
+                    "TN": 22960213,
+                    "TP": 61377,
+                    "n_pred": 107046,
+                    "n_ref": 62790
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_012.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9555713225252124,
+                    "FN": 8351,
+                    "FP": 2482,
+                    "IoU": 0.914922524758307,
+                    "TN": 19795613,
+                    "TP": 116498,
+                    "n_pred": 118980,
+                    "n_ref": 124849
+                },
+                "2": {
+                    "Dice": 0.9722006903820523,
+                    "FN": 8682,
+                    "FP": 1288,
+                    "IoU": 0.9459051794298612,
+                    "TN": 19738638,
+                    "TP": 174336,
+                    "n_pred": 175624,
+                    "n_ref": 183018
+                },
+                "3": {
+                    "Dice": 0.973475085304983,
+                    "FN": 8246,
+                    "FP": 1160,
+                    "IoU": 0.9483209529251462,
+                    "TN": 19740936,
+                    "TP": 172602,
+                    "n_pred": 173762,
+                    "n_ref": 180848
+                },
+                "4": {
+                    "Dice": 0.7979336523158854,
+                    "FN": 34746,
+                    "FP": 4487,
+                    "IoU": 0.663801672722287,
+                    "TN": 19806248,
+                    "TP": 77463,
+                    "n_pred": 81950,
+                    "n_ref": 112209
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_022.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9845267397144131,
+                    "FN": 1547,
+                    "FP": 2030,
+                    "IoU": 0.9695250266240681,
+                    "TN": 49427841,
+                    "TP": 113798,
+                    "n_pred": 115828,
+                    "n_ref": 115345
+                },
+                "2": {
+                    "Dice": 0.9897164349550307,
+                    "FN": 2382,
+                    "FP": 1238,
+                    "IoU": 0.9796422204601308,
+                    "TN": 49367397,
+                    "TP": 174199,
+                    "n_pred": 175437,
+                    "n_ref": 176581
+                },
+                "3": {
+                    "Dice": 0.9903756411477395,
+                    "FN": 1210,
+                    "FP": 2327,
+                    "IoU": 0.9809347728828542,
+                    "TN": 49359695,
+                    "TP": 181984,
+                    "n_pred": 184311,
+                    "n_ref": 183194
+                },
+                "4": {
+                    "Dice": 0.9032945907724943,
+                    "FN": 7928,
+                    "FP": 9578,
+                    "IoU": 0.8236437817962021,
+                    "TN": 49445951,
+                    "TP": 81759,
+                    "n_pred": 91337,
+                    "n_ref": 89687
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_037.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_037.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9552581261950287,
+                    "FN": 7507,
+                    "FP": 800,
+                    "IoU": 0.9143484626647145,
+                    "TN": 22709542,
+                    "TP": 88679,
+                    "n_pred": 89479,
+                    "n_ref": 96186
+                },
+                "2": {
+                    "Dice": 0.978743202974886,
+                    "FN": 4944,
+                    "FP": 1041,
+                    "IoU": 0.9583712988015664,
+                    "TN": 22662757,
+                    "TP": 137786,
+                    "n_pred": 138827,
+                    "n_ref": 142730
+                },
+                "3": {
+                    "Dice": 0.976828440405104,
+                    "FN": 5354,
+                    "FP": 1336,
+                    "IoU": 0.9547064040676222,
+                    "TN": 22658825,
+                    "TP": 141013,
+                    "n_pred": 142349,
+                    "n_ref": 146367
+                },
+                "4": {
+                    "Dice": 0.892914587484835,
+                    "FN": 4492,
+                    "FP": 15015,
+                    "IoU": 0.8065453463579114,
+                    "TN": 22705693,
+                    "TP": 81328,
+                    "n_pred": 96343,
+                    "n_ref": 85820
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_039.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9778704297626684,
+                    "FN": 1423,
+                    "FP": 1613,
+                    "IoU": 0.9566990900533417,
+                    "TN": 31125022,
+                    "TP": 67078,
+                    "n_pred": 68691,
+                    "n_ref": 68501
+                },
+                "2": {
+                    "Dice": 0.9864715120496815,
+                    "FN": 2697,
+                    "FP": 697,
+                    "IoU": 0.9733041782028694,
+                    "TN": 31068000,
+                    "TP": 123742,
+                    "n_pred": 124439,
+                    "n_ref": 126439
+                },
+                "3": {
+                    "Dice": 0.9906415951898115,
+                    "FN": 1579,
+                    "FP": 793,
+                    "IoU": 0.9814567258456656,
+                    "TN": 31067219,
+                    "TP": 125545,
+                    "n_pred": 126338,
+                    "n_ref": 127124
+                },
+                "4": {
+                    "Dice": 0.8980101573557572,
+                    "FN": 4849,
+                    "FP": 11076,
+                    "IoU": 0.8148987609549713,
+                    "TN": 31109102,
+                    "TP": 70109,
+                    "n_pred": 81185,
+                    "n_ref": 74958
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_054.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_054.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9696309697363568,
+                    "FN": 2334,
+                    "FP": 1124,
+                    "IoU": 0.9410521291466367,
+                    "TN": 26417882,
+                    "TP": 55204,
+                    "n_pred": 56328,
+                    "n_ref": 57538
+                },
+                "2": {
+                    "Dice": 0.9888679977318172,
+                    "FN": 1623,
+                    "FP": 615,
+                    "IoU": 0.9779811097992916,
+                    "TN": 26374904,
+                    "TP": 99402,
+                    "n_pred": 100017,
+                    "n_ref": 101025
+                },
+                "3": {
+                    "Dice": 0.9905116092069555,
+                    "FN": 1263,
+                    "FP": 625,
+                    "IoU": 0.9812015851205766,
+                    "TN": 26376110,
+                    "TP": 98546,
+                    "n_pred": 99171,
+                    "n_ref": 99809
+                },
+                "4": {
+                    "Dice": 0.7225897123582873,
+                    "FN": 911,
+                    "FP": 28697,
+                    "IoU": 0.5656676788569585,
+                    "TN": 26408375,
+                    "TP": 38561,
+                    "n_pred": 67258,
+                    "n_ref": 39472
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_079.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_079.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9783289650322828,
+                    "FN": 1131,
+                    "FP": 564,
+                    "IoU": 0.957577274433738,
+                    "TN": 25125869,
+                    "TP": 38260,
+                    "n_pred": 38824,
+                    "n_ref": 39391
+                },
+                "2": {
+                    "Dice": 0.9871265950662295,
+                    "FN": 1916,
+                    "FP": 365,
+                    "IoU": 0.9745804265941561,
+                    "TN": 25076090,
+                    "TP": 87453,
+                    "n_pred": 87818,
+                    "n_ref": 89369
+                },
+                "3": {
+                    "Dice": 0.9872453382693418,
+                    "FN": 1683,
+                    "FP": 460,
+                    "IoU": 0.9748119417019276,
+                    "TN": 25080744,
+                    "TP": 82937,
+                    "n_pred": 83397,
+                    "n_ref": 84620
+                },
+                "4": {
+                    "Dice": 0.745741355496862,
+                    "FN": 435,
+                    "FP": 20551,
+                    "IoU": 0.5945674432981725,
+                    "TN": 25114062,
+                    "TP": 30776,
+                    "n_pred": 51327,
+                    "n_ref": 31211
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_083.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_083.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9612745604823132,
+                    "FN": 4510,
+                    "FP": 2607,
+                    "IoU": 0.9254366206036732,
+                    "TN": 24283943,
+                    "TP": 88332,
+                    "n_pred": 90939,
+                    "n_ref": 92842
+                },
+                "2": {
+                    "Dice": 0.9784602401763886,
+                    "FN": 4229,
+                    "FP": 978,
+                    "IoU": 0.9578288370736923,
+                    "TN": 24255919,
+                    "TP": 118266,
+                    "n_pred": 119244,
+                    "n_ref": 122495
+                },
+                "3": {
+                    "Dice": 0.9781200953791158,
+                    "FN": 4387,
+                    "FP": 1036,
+                    "IoU": 0.9571771506182978,
+                    "TN": 24252754,
+                    "TP": 121215,
+                    "n_pred": 122251,
+                    "n_ref": 125602
+                },
+                "4": {
+                    "Dice": 0.9287637119942126,
+                    "FN": 1811,
+                    "FP": 8430,
+                    "IoU": 0.8670017272502955,
+                    "TN": 24302391,
+                    "TP": 66760,
+                    "n_pred": 75190,
+                    "n_ref": 68571
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_087.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_087.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9781196538814371,
+                    "FN": 2164,
+                    "FP": 1366,
+                    "IoU": 0.9571763050308743,
+                    "TN": 23248385,
+                    "TP": 78901,
+                    "n_pred": 80267,
+                    "n_ref": 81065
+                },
+                "2": {
+                    "Dice": 0.9845358872613582,
+                    "FN": 2752,
+                    "FP": 923,
+                    "IoU": 0.969542768583055,
+                    "TN": 23210155,
+                    "TP": 116986,
+                    "n_pred": 117909,
+                    "n_ref": 119738
+                },
+                "3": {
+                    "Dice": 0.9841980467260276,
+                    "FN": 2853,
+                    "FP": 959,
+                    "IoU": 0.9688877281185727,
+                    "TN": 23208292,
+                    "TP": 118712,
+                    "n_pred": 119671,
+                    "n_ref": 121565
+                },
+                "4": {
+                    "Dice": 0.8140563550525974,
+                    "FN": 772,
+                    "FP": 20457,
+                    "IoU": 0.6864207743098125,
+                    "TN": 23263117,
+                    "TP": 46470,
+                    "n_pred": 66927,
+                    "n_ref": 47242
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_104.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_104.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9675366384879471,
+                    "FN": 2288,
+                    "FP": 2109,
+                    "IoU": 0.9371147437822686,
+                    "TN": 24309471,
+                    "TP": 65524,
+                    "n_pred": 67633,
+                    "n_ref": 67812
+                },
+                "2": {
+                    "Dice": 0.9734197639199479,
+                    "FN": 4351,
+                    "FP": 344,
+                    "IoU": 0.9482159598522032,
+                    "TN": 24288727,
+                    "TP": 85970,
+                    "n_pred": 86314,
+                    "n_ref": 90321
+                },
+                "3": {
+                    "Dice": 0.9668931551826349,
+                    "FN": 5271,
+                    "FP": 537,
+                    "IoU": 0.9359081880379607,
+                    "TN": 24288772,
+                    "TP": 84812,
+                    "n_pred": 85349,
+                    "n_ref": 90083
+                },
+                "4": {
+                    "Dice": 0.8431814134727184,
+                    "FN": 643,
+                    "FP": 14328,
+                    "IoU": 0.728879552328003,
+                    "TN": 24324173,
+                    "TP": 40248,
+                    "n_pred": 54576,
+                    "n_ref": 40891
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_106.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_106.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9304891981719984,
+                    "FN": 4882,
+                    "FP": 16534,
+                    "IoU": 0.8700138386462405,
+                    "TN": 53574764,
+                    "TP": 143340,
+                    "n_pred": 159874,
+                    "n_ref": 148222
+                },
+                "2": {
+                    "Dice": 0.9770610655647317,
+                    "FN": 7595,
+                    "FP": 3846,
+                    "IoU": 0.9551509212073697,
+                    "TN": 53484420,
+                    "TP": 243659,
+                    "n_pred": 247505,
+                    "n_ref": 251254
+                },
+                "3": {
+                    "Dice": 0.9860545782748734,
+                    "FN": 5762,
+                    "FP": 1330,
+                    "IoU": 0.9724927566586379,
+                    "TN": 53481697,
+                    "TP": 250731,
+                    "n_pred": 252061,
+                    "n_ref": 256493
+                },
+                "4": {
+                    "Dice": 0.8566104128253128,
+                    "FN": 6415,
+                    "FP": 44522,
+                    "IoU": 0.749185074303497,
+                    "TN": 53536434,
+                    "TP": 152149,
+                    "n_pred": 196671,
+                    "n_ref": 158564
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_112.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_112.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9829231436232232,
+                    "FN": 2464,
+                    "FP": 1593,
+                    "IoU": 0.9664197326490915,
+                    "TN": 39987217,
+                    "TP": 116758,
+                    "n_pred": 118351,
+                    "n_ref": 119222
+                },
+                "2": {
+                    "Dice": 0.991229596467385,
+                    "FN": 2759,
+                    "FP": 971,
+                    "IoU": 0.9826116953830089,
+                    "TN": 39893520,
+                    "TP": 210782,
+                    "n_pred": 211753,
+                    "n_ref": 213541
+                },
+                "3": {
+                    "Dice": 0.9896979587371338,
+                    "FN": 3151,
+                    "FP": 1369,
+                    "IoU": 0.9796060171273361,
+                    "TN": 39886398,
+                    "TP": 217114,
+                    "n_pred": 218483,
+                    "n_ref": 220265
+                },
+                "4": {
+                    "Dice": 0.8444693595589436,
+                    "FN": 2502,
+                    "FP": 32733,
+                    "IoU": 0.7308065489605855,
+                    "TN": 39977141,
+                    "TP": 95656,
+                    "n_pred": 128389,
+                    "n_ref": 98158
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_124.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_124.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9808349514563107,
+                    "FN": 1425,
+                    "FP": 549,
+                    "IoU": 0.9623906872177873,
+                    "TN": 25637625,
+                    "TP": 50513,
+                    "n_pred": 51062,
+                    "n_ref": 51938
+                },
+                "2": {
+                    "Dice": 0.9746114276232093,
+                    "FN": 2609,
+                    "FP": 1063,
+                    "IoU": 0.950480094940123,
+                    "TN": 25615960,
+                    "TP": 70480,
+                    "n_pred": 71543,
+                    "n_ref": 73089
+                },
+                "3": {
+                    "Dice": 0.9852618986346913,
+                    "FN": 1788,
+                    "FP": 331,
+                    "IoU": 0.9709519109502659,
+                    "TN": 25617164,
+                    "TP": 70829,
+                    "n_pred": 71160,
+                    "n_ref": 72617
+                },
+                "4": {
+                    "Dice": 0.8640659819164468,
+                    "FN": 3227,
+                    "FP": 7387,
+                    "IoU": 0.7606656444484532,
+                    "TN": 25645764,
+                    "TP": 33734,
+                    "n_pred": 41121,
+                    "n_ref": 36961
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_158.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_158.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8920814930901838,
+                    "FN": 14043,
+                    "FP": 4894,
+                    "IoU": 0.8051869226179454,
+                    "TN": 31097930,
+                    "TP": 78269,
+                    "n_pred": 83163,
+                    "n_ref": 92312
+                },
+                "2": {
+                    "Dice": 0.9514785513423807,
+                    "FN": 7623,
+                    "FP": 6060,
+                    "IoU": 0.9074478662887833,
+                    "TN": 31047295,
+                    "TP": 134158,
+                    "n_pred": 140218,
+                    "n_ref": 141781
+                },
+                "3": {
+                    "Dice": 0.8717931253689325,
+                    "FN": 31955,
+                    "FP": 1927,
+                    "IoU": 0.7727245286056387,
+                    "TN": 31046057,
+                    "TP": 115197,
+                    "n_pred": 117124,
+                    "n_ref": 147152
+                },
+                "4": {
+                    "Dice": 0.7295264557234904,
+                    "FN": 32635,
+                    "FP": 12533,
+                    "IoU": 0.5742161723949397,
+                    "TN": 31089054,
+                    "TP": 60914,
+                    "n_pred": 73447,
+                    "n_ref": 93549
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_171.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_171.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9694058154235146,
+                    "FN": 3550,
+                    "FP": 2137,
+                    "IoU": 0.9406280667320903,
+                    "TN": 15370710,
+                    "TP": 90099,
+                    "n_pred": 92236,
+                    "n_ref": 93649
+                },
+                "2": {
+                    "Dice": 0.9794968373366814,
+                    "FN": 4736,
+                    "FP": 849,
+                    "IoU": 0.9598175421430164,
+                    "TN": 15327505,
+                    "TP": 133406,
+                    "n_pred": 134255,
+                    "n_ref": 138142
+                },
+                "3": {
+                    "Dice": 0.9831841822355232,
+                    "FN": 3847,
+                    "FP": 783,
+                    "IoU": 0.9669245551245509,
+                    "TN": 15326513,
+                    "TP": 135353,
+                    "n_pred": 136136,
+                    "n_ref": 139200
+                },
+                "4": {
+                    "Dice": 0.8970302976195307,
+                    "FN": 923,
+                    "FP": 11764,
+                    "IoU": 0.8132864354147964,
+                    "TN": 15398547,
+                    "TP": 55262,
+                    "n_pred": 67026,
+                    "n_ref": 56185
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_177.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_177.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9626020765506784,
+                    "FN": 1946,
+                    "FP": 2913,
+                    "IoU": 0.9279005237932723,
+                    "TN": 27719871,
+                    "TP": 62534,
+                    "n_pred": 65447,
+                    "n_ref": 64480
+                },
+                "2": {
+                    "Dice": 0.9570455825383553,
+                    "FN": 1874,
+                    "FP": 8194,
+                    "IoU": 0.9176293484308015,
+                    "TN": 27665036,
+                    "TP": 112160,
+                    "n_pred": 120354,
+                    "n_ref": 114034
+                },
+                "3": {
+                    "Dice": 0.988048440832731,
+                    "FN": 1685,
+                    "FP": 1027,
+                    "IoU": 0.976379187207135,
+                    "TN": 27672450,
+                    "TP": 112102,
+                    "n_pred": 113129,
+                    "n_ref": 113787
+                },
+                "4": {
+                    "Dice": 0.8361615131266155,
+                    "FN": 2017,
+                    "FP": 16936,
+                    "IoU": 0.7184515055632307,
+                    "TN": 27719947,
+                    "TP": 48364,
+                    "n_pred": 65300,
+                    "n_ref": 50381
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset3_colon_203.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset3_colon_203.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9708824746727122,
+                    "FN": 6371,
+                    "FP": 1438,
+                    "IoU": 0.9434126334248799,
+                    "TN": 49407217,
+                    "TP": 130190,
+                    "n_pred": 131628,
+                    "n_ref": 136561
+                },
+                "2": {
+                    "Dice": 0.9336636911971691,
+                    "FN": 21146,
+                    "FP": 487,
+                    "IoU": 0.8755808870893531,
+                    "TN": 49371344,
+                    "TP": 152239,
+                    "n_pred": 152726,
+                    "n_ref": 173385
+                },
+                "3": {
+                    "Dice": 0.9554556817275217,
+                    "FN": 14516,
+                    "FP": 559,
+                    "IoU": 0.9147105249758134,
+                    "TN": 49368465,
+                    "TP": 161676,
+                    "n_pred": 162235,
+                    "n_ref": 176192
+                },
+                "4": {
+                    "Dice": 0.6591463954232886,
+                    "FN": 4411,
+                    "FP": 61068,
+                    "IoU": 0.4915871450644843,
+                    "TN": 49416425,
+                    "TP": 63312,
+                    "n_pred": 124380,
+                    "n_ref": 67723
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset4_case_00032.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset4_case_00032.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9846873067940705,
+                    "FN": 6520,
+                    "FP": 8390,
+                    "IoU": 0.9698364980396759,
+                    "TN": 192967966,
+                    "TP": 479396,
+                    "n_pred": 487786,
+                    "n_ref": 485916
+                },
+                "2": {
+                    "Dice": 0.9777400476138265,
+                    "FN": 18945,
+                    "FP": 1560,
+                    "IoU": 0.9564495266899304,
+                    "TN": 192991439,
+                    "TP": 450328,
+                    "n_pred": 451888,
+                    "n_ref": 469273
+                },
+                "3": {
+                    "Dice": 0.9862098056393783,
+                    "FN": 9581,
+                    "FP": 2744,
+                    "IoU": 0.9727947765971067,
+                    "TN": 193009234,
+                    "TP": 440713,
+                    "n_pred": 443457,
+                    "n_ref": 450294
+                },
+                "4": {
+                    "Dice": 0.6920442165507024,
+                    "FN": 64738,
+                    "FP": 253271,
+                    "IoU": 0.5291036786623369,
+                    "TN": 192786945,
+                    "TP": 357318,
+                    "n_pred": 610589,
+                    "n_ref": 422056
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset4_case_00059.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset4_case_00059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9609179426438026,
+                    "FN": 10713,
+                    "FP": 4696,
+                    "IoU": 0.9247758017193823,
+                    "TN": 101769175,
+                    "TP": 189432,
+                    "n_pred": 194128,
+                    "n_ref": 200145
+                },
+                "2": {
+                    "Dice": 0.9634138585539379,
+                    "FN": 17945,
+                    "FP": 7942,
+                    "IoU": 0.9294103210852819,
+                    "TN": 101607291,
+                    "TP": 340838,
+                    "n_pred": 348780,
+                    "n_ref": 358783
+                },
+                "3": {
+                    "Dice": 0.9791964386614654,
+                    "FN": 9046,
+                    "FP": 5497,
+                    "IoU": 0.9592408135581819,
+                    "TN": 101617213,
+                    "TP": 342260,
+                    "n_pred": 347757,
+                    "n_ref": 351306
+                },
+                "4": {
+                    "Dice": 0.5147682791565679,
+                    "FN": 2207,
+                    "FP": 163159,
+                    "IoU": 0.34659122339795007,
+                    "TN": 101720934,
+                    "TP": 87716,
+                    "n_pred": 250875,
+                    "n_ref": 89923
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset4_case_00123.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset4_case_00123.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9713632373742739,
+                    "FN": 8269,
+                    "FP": 1975,
+                    "IoU": 0.9443209426957926,
+                    "TN": 100217169,
+                    "TP": 173739,
+                    "n_pred": 175714,
+                    "n_ref": 182008
+                },
+                "2": {
+                    "Dice": 0.9521870403052797,
+                    "FN": 23772,
+                    "FP": 1613,
+                    "IoU": 0.9087376057867225,
+                    "TN": 100122998,
+                    "TP": 252769,
+                    "n_pred": 254382,
+                    "n_ref": 276541
+                },
+                "3": {
+                    "Dice": 0.9756904514683608,
+                    "FN": 8672,
+                    "FP": 4392,
+                    "IoU": 0.9525347614566567,
+                    "TN": 100125919,
+                    "TP": 262169,
+                    "n_pred": 266561,
+                    "n_ref": 270841
+                },
+                "4": {
+                    "Dice": 0.5532910379246215,
+                    "FN": 8484,
+                    "FP": 143322,
+                    "IoU": 0.3824480613784939,
+                    "TN": 100155333,
+                    "TP": 94013,
+                    "n_pred": 237335,
+                    "n_ref": 102497
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset4_case_00202.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset4_case_00202.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9788074295774072,
+                    "FN": 2967,
+                    "FP": 9998,
+                    "IoU": 0.95849446806331,
+                    "TN": 91438032,
+                    "TP": 299403,
+                    "n_pred": 309401,
+                    "n_ref": 302370
+                },
+                "2": {
+                    "Dice": 0.9873250944971336,
+                    "FN": 8845,
+                    "FP": 2603,
+                    "IoU": 0.9749674738971191,
+                    "TN": 91293075,
+                    "TP": 445877,
+                    "n_pred": 448480,
+                    "n_ref": 454722
+                },
+                "3": {
+                    "Dice": 0.9877073401363224,
+                    "FN": 7640,
+                    "FP": 3592,
+                    "IoU": 0.9757132292842409,
+                    "TN": 91287926,
+                    "TP": 451242,
+                    "n_pred": 454834,
+                    "n_ref": 458882
+                },
+                "4": {
+                    "Dice": 0.9650436141127458,
+                    "FN": 399,
+                    "FP": 1749,
+                    "IoU": 0.9324485816718032,
+                    "TN": 91718602,
+                    "TP": 29650,
+                    "n_pred": 31399,
+                    "n_ref": 30049
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0010.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9859485848781989,
+                    "FN": 2460,
+                    "FP": 4298,
+                    "IoU": 0.9722865824902708,
+                    "TN": 85215091,
+                    "TP": 237095,
+                    "n_pred": 241393,
+                    "n_ref": 239555
+                },
+                "2": {
+                    "Dice": 0.984577808508355,
+                    "FN": 10273,
+                    "FP": 1080,
+                    "IoU": 0.9696240802675585,
+                    "TN": 85085194,
+                    "TP": 362397,
+                    "n_pred": 363477,
+                    "n_ref": 372670
+                },
+                "3": {
+                    "Dice": 0.9875701879063332,
+                    "FN": 8280,
+                    "FP": 920,
+                    "IoU": 0.9754455826069318,
+                    "TN": 85084266,
+                    "TP": 365478,
+                    "n_pred": 366398,
+                    "n_ref": 373758
+                },
+                "4": {
+                    "Dice": 0.9683373727581193,
+                    "FN": 979,
+                    "FP": 3920,
+                    "IoU": 0.9386182528943016,
+                    "TN": 85379132,
+                    "TP": 74913,
+                    "n_pred": 78833,
+                    "n_ref": 75892
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0013.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9823872665225206,
+                    "FN": 4196,
+                    "FP": 9326,
+                    "IoU": 0.9653842116985083,
+                    "TN": 91359769,
+                    "TP": 377109,
+                    "n_pred": 386435,
+                    "n_ref": 381305
+                },
+                "2": {
+                    "Dice": 0.9852025482663036,
+                    "FN": 10679,
+                    "FP": 4535,
+                    "IoU": 0.9708366399454074,
+                    "TN": 91228718,
+                    "TP": 506468,
+                    "n_pred": 511003,
+                    "n_ref": 517147
+                },
+                "3": {
+                    "Dice": 0.9824259296642833,
+                    "FN": 13494,
+                    "FP": 5223,
+                    "IoU": 0.965458887273103,
+                    "TN": 91208524,
+                    "TP": 523159,
+                    "n_pred": 528382,
+                    "n_ref": 536653
+                },
+                "4": {
+                    "Dice": 0.9803095170223706,
+                    "FN": 3106,
+                    "FP": 4285,
+                    "IoU": 0.961379490529066,
+                    "TN": 91559025,
+                    "TP": 183984,
+                    "n_pred": 188269,
+                    "n_ref": 187090
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0022.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9855809690064352,
+                    "FN": 2598,
+                    "FP": 6620,
+                    "IoU": 0.971571844468568,
+                    "TN": 91426144,
+                    "TP": 315038,
+                    "n_pred": 321658,
+                    "n_ref": 317636
+                },
+                "2": {
+                    "Dice": 0.9869821785769968,
+                    "FN": 10356,
+                    "FP": 2419,
+                    "IoU": 0.9742989291052808,
+                    "TN": 91253339,
+                    "TP": 484286,
+                    "n_pred": 486705,
+                    "n_ref": 494642
+                },
+                "3": {
+                    "Dice": 0.985863195728117,
+                    "FN": 10787,
+                    "FP": 3239,
+                    "IoU": 0.9721205182331731,
+                    "TN": 91247306,
+                    "TP": 489068,
+                    "n_pred": 492307,
+                    "n_ref": 499855
+                },
+                "4": {
+                    "Dice": 0.9751196509009009,
+                    "FN": 1460,
+                    "FP": 7024,
+                    "IoU": 0.951447309686502,
+                    "TN": 91575662,
+                    "TP": 166254,
+                    "n_pred": 173278,
+                    "n_ref": 167714
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0026.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9806097161827279,
+                    "FN": 4445,
+                    "FP": 3849,
+                    "IoU": 0.9619570950889151,
+                    "TN": 101493855,
+                    "TP": 209723,
+                    "n_pred": 213572,
+                    "n_ref": 214168
+                },
+                "2": {
+                    "Dice": 0.788710806354027,
+                    "FN": 13662,
+                    "FP": 164440,
+                    "IoU": 0.6511333631071308,
+                    "TN": 101201356,
+                    "TP": 332414,
+                    "n_pred": 496854,
+                    "n_ref": 346076
+                },
+                "3": {
+                    "Dice": 0.9616865840040438,
+                    "FN": 18465,
+                    "FP": 7988,
+                    "IoU": 0.9262006723486169,
+                    "TN": 101353427,
+                    "TP": 331992,
+                    "n_pred": 339980,
+                    "n_ref": 350457
+                },
+                "4": {
+                    "Dice": 0.9466443142647253,
+                    "FN": 3668,
+                    "FP": 10495,
+                    "IoU": 0.8986938857257303,
+                    "TN": 101572068,
+                    "TP": 125641,
+                    "n_pred": 136136,
+                    "n_ref": 129309
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0039.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9758333916441846,
+                    "FN": 3644,
+                    "FP": 15006,
+                    "IoU": 0.9528072714758545,
+                    "TN": 91355212,
+                    "TP": 376538,
+                    "n_pred": 391544,
+                    "n_ref": 380182
+                },
+                "2": {
+                    "Dice": 0.9528008481052906,
+                    "FN": 11630,
+                    "FP": 46115,
+                    "IoU": 0.9098563977839145,
+                    "TN": 91109811,
+                    "TP": 582844,
+                    "n_pred": 628959,
+                    "n_ref": 594474
+                },
+                "3": {
+                    "Dice": 0.9816503274107085,
+                    "FN": 10048,
+                    "FP": 11462,
+                    "IoU": 0.9639619413975261,
+                    "TN": 91153531,
+                    "TP": 575359,
+                    "n_pred": 586821,
+                    "n_ref": 585407
+                },
+                "4": {
+                    "Dice": 0.9634952830188679,
+                    "FN": 3836,
+                    "FP": 11642,
+                    "IoU": 0.9295618893323443,
+                    "TN": 91530661,
+                    "TP": 204261,
+                    "n_pred": 215903,
+                    "n_ref": 208097
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0048.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0048.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9844808424581413,
+                    "FN": 2988,
+                    "FP": 5530,
+                    "IoU": 0.9694360122571709,
+                    "TN": 91471706,
+                    "TP": 270176,
+                    "n_pred": 275706,
+                    "n_ref": 273164
+                },
+                "2": {
+                    "Dice": 0.9862479064550329,
+                    "FN": 8672,
+                    "FP": 2068,
+                    "IoU": 0.9728689220322542,
+                    "TN": 91354544,
+                    "TP": 385116,
+                    "n_pred": 387184,
+                    "n_ref": 393788
+                },
+                "3": {
+                    "Dice": 0.9771641547634674,
+                    "FN": 12307,
+                    "FP": 4916,
+                    "IoU": 0.9553479762312167,
+                    "TN": 91364684,
+                    "TP": 368493,
+                    "n_pred": 373409,
+                    "n_ref": 380800
+                },
+                "4": {
+                    "Dice": 0.9617665989998515,
+                    "FN": 1742,
+                    "FP": 5980,
+                    "IoU": 0.926349121568777,
+                    "TN": 91645554,
+                    "TP": 97124,
+                    "n_pred": 103104,
+                    "n_ref": 98866
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0055.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0055.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9829656100348674,
+                    "FN": 4567,
+                    "FP": 7207,
+                    "IoU": 0.9665018407770526,
+                    "TN": 91398918,
+                    "TP": 339708,
+                    "n_pred": 346915,
+                    "n_ref": 344275
+                },
+                "2": {
+                    "Dice": 0.9369486062356036,
+                    "FN": 15001,
+                    "FP": 56360,
+                    "IoU": 0.881376584172241,
+                    "TN": 91148824,
+                    "TP": 530215,
+                    "n_pred": 586575,
+                    "n_ref": 545216
+                },
+                "3": {
+                    "Dice": 0.9616188453970407,
+                    "FN": 12618,
+                    "FP": 28812,
+                    "IoU": 0.9260750169957872,
+                    "TN": 91189967,
+                    "TP": 519003,
+                    "n_pred": 547815,
+                    "n_ref": 531621
+                },
+                "4": {
+                    "Dice": 0.980281413566668,
+                    "FN": 4460,
+                    "FP": 3975,
+                    "IoU": 0.9613254348882633,
+                    "TN": 91532298,
+                    "TP": 209667,
+                    "n_pred": 213642,
+                    "n_ref": 214127
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0058.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0058.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9777219597047393,
+                    "FN": 1897,
+                    "FP": 14458,
+                    "IoU": 0.9564149098051129,
+                    "TN": 91375157,
+                    "TP": 358888,
+                    "n_pred": 373346,
+                    "n_ref": 360785
+                },
+                "2": {
+                    "Dice": 0.9816557998803573,
+                    "FN": 18984,
+                    "FP": 5364,
+                    "IoU": 0.9639724955128386,
+                    "TN": 91074583,
+                    "TP": 651469,
+                    "n_pred": 656833,
+                    "n_ref": 670453
+                },
+                "3": {
+                    "Dice": 0.9890943019368632,
+                    "FN": 10260,
+                    "FP": 3696,
+                    "IoU": 0.9784239062376803,
+                    "TN": 91103573,
+                    "TP": 632871,
+                    "n_pred": 636567,
+                    "n_ref": 643131
+                },
+                "4": {
+                    "Dice": 0.6410400797014907,
+                    "FN": 1263,
+                    "FP": 114755,
+                    "IoU": 0.47171374970402347,
+                    "TN": 91530788,
+                    "TP": 103594,
+                    "n_pred": 218349,
+                    "n_ref": 104857
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0079.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0079.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9859970969216936,
+                    "FN": 2559,
+                    "FP": 6567,
+                    "IoU": 0.9723809408517541,
+                    "TN": 91419976,
+                    "TP": 321298,
+                    "n_pred": 327865,
+                    "n_ref": 323857
+                },
+                "2": {
+                    "Dice": 0.9843337255243074,
+                    "FN": 7183,
+                    "FP": 6505,
+                    "IoU": 0.9691507439610914,
+                    "TN": 91306694,
+                    "TP": 430018,
+                    "n_pred": 436523,
+                    "n_ref": 437201
+                },
+                "3": {
+                    "Dice": 0.9780692003983781,
+                    "FN": 7386,
+                    "FP": 12344,
+                    "IoU": 0.9570796777821527,
+                    "TN": 91290711,
+                    "TP": 439959,
+                    "n_pred": 452303,
+                    "n_ref": 447345
+                },
+                "4": {
+                    "Dice": 0.9665690371897597,
+                    "FN": 3626,
+                    "FP": 5357,
+                    "IoU": 0.9353010234581506,
+                    "TN": 91611557,
+                    "TP": 129860,
+                    "n_pred": 135217,
+                    "n_ref": 133486
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset6_clinic_0090.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset6_clinic_0090.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9737027368680692,
+                    "FN": 5995,
+                    "FP": 14475,
+                    "IoU": 0.9487531262595791,
+                    "TN": 78505905,
+                    "TP": 378969,
+                    "n_pred": 393444,
+                    "n_ref": 384964
+                },
+                "2": {
+                    "Dice": 0.9809267773053058,
+                    "FN": 12875,
+                    "FP": 9005,
+                    "IoU": 0.9625675127754615,
+                    "TN": 78320825,
+                    "TP": 562639,
+                    "n_pred": 571644,
+                    "n_ref": 575514
+                },
+                "3": {
+                    "Dice": 0.9818410084722602,
+                    "FN": 10494,
+                    "FP": 10768,
+                    "IoU": 0.9643297526636927,
+                    "TN": 78309273,
+                    "TP": 574809,
+                    "n_pred": 585577,
+                    "n_ref": 585303
+                },
+                "4": {
+                    "Dice": 0.9792609240192989,
+                    "FN": 3822,
+                    "FP": 3911,
+                    "IoU": 0.9593645889165642,
+                    "TN": 78715042,
+                    "TP": 182569,
+                    "n_pred": 186480,
+                    "n_ref": 186391
+                }
+            },
+            "prediction_file": "lh_pretraining_smoke_test/artifacts/pelvic1k_test/checkpoint_best/predictions/pelvic1k_dataset7_clinic_metal_0008.nii.gz",
+            "reference_file": "nnUNet/nnUNet_raw/Dataset016_CTPelvic1K_pretrain/labelsTs/pelvic1k_dataset7_clinic_metal_0008.nii.gz"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "evaluated_utc": "2026-06-24T12:00:08.162619+00:00",
+  "dataset_id": 18,
+  "dataset_name": "Dataset018_PENGWIN_multiclass_anatomy",
+  "checkpoint": "checkpoint_best.pth",
+  "fold": "0",
+  "test_cases": 15,
+  "predictions": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/predictions",
+  "summary": "/data/home/ue704/DeepVision-3DNNUNETPelvicSegmentation/lh_pretraining_smoke_test/artifacts/pengwin_multiclass_test/checkpoint_best/summary.json",
+  "label_note": "Labels are numeric 1,2,3. Current left/right naming is uncertain; use class_1_hip/class_2_hip until visually confirmed."
+}
